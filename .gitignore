@@ -1,0 +1,21 @@
+# Lean and Lake build artifacts
+.lake/
+*.olean
+*.ilean
+*.trace
+
+# Python generated files
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+
+# Generated audit directories
+/full-audit-*/
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,78 @@
+﻿name: Unified CRF v2.7 kernel audit
+
+on:
+  push:
+    branches:
+      - v2.7-consolidation
+      - main
+    paths:
+      - 'Lean Proofs/**'
+      - 'Collatz Research v2.3/**'
+      - 'Collatz Research v2.4/**'
+      - 'Collatz Research v2.5/**'
+      - 'Collatz Research v2.6/**'
+      - 'Collatz Research v2.7/**'
+      - '.github/workflows/collatz-v27-unified-audit.yml'
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  unified-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+
+    steps:
+      - name: Checkout complete source history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Install Elan
+        run: |
+          curl -fsSL https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh | sh -s -- -y --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+
+      - name: Prepare pinned Mathlib environment
+        working-directory: Collatz Research v2.3
+        run: |
+          lake exe cache get
+          test "$(git -C .lake/packages/mathlib rev-parse HEAD)" = "c44e0c8ee63ca166450922a373c7409c5d26b00b"
+          lake env lean --version
+
+      - name: Validate canonical spectral source checksums
+        run: |
+          cd "Collatz Research v2.7/GeometricSpectral"
+          sha256sum -c SHA256SUMS.txt
+          cd ../LeptonModular
+          sha256sum -c SHA256SUMS.txt
+
+      - name: Validate archived audit evidence
+        working-directory: Collatz Research v2.7/audit/evidence
+        run: sha256sum -c SHA256SUMS.txt
+
+      - name: Execute unified kernel verification
+        working-directory: Collatz Research v2.3
+        run: |
+          lake env python3 "$GITHUB_WORKSPACE/Collatz Research v2.7/audit/verify-v27.py" "$GITHUB_WORKSPACE/full-audit-v27"
+
+      - name: Compare fresh and archived inventories
+        run: |
+          python3 "Collatz Research v2.7/audit/compare-audits.py" \
+            "Collatz Research v2.7/audit/evidence/declaration-inventory.json" \
+            "full-audit-v27/declaration-inventory.json"
+
+      - name: Verify publication checksums
+        run: sha256sum -c PUBLICATION-SHA256SUMS.txt
+
+      - name: Upload complete verification evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: collatz-v27-unified-audit
+          path: full-audit-v27/
+          if-no-files-found: warn

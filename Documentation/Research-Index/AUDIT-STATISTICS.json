@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "modules": 64,
+  "distinct_audited_names": 1056,
+  "axiom_distribution": {
+    "Classical.choice, Quot.sound, propext": 780,
+    "None": 26,
+    "propext": 40,
+    "Quot.sound, propext": 210
+  },
+  "unexpected_axioms": 0
+}

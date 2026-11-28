@@ -1,0 +1,3 @@
+# Preserve binary publication assets exactly
+*.pdf -text
+*.zip -text
