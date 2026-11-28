@@ -1,0 +1,1464 @@
+'CollatzRunyan.AdaptiveResidueRigidity.incoming_run_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.AdaptiveResidueRigidity.incoming_run_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.AdaptiveResidueRigidity.interval_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.AdaptiveResidueRigidity.local_residue_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.AdaptiveResidueRigidity.long_run_exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.AdaptiveResidueRigidity.long_run_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.AdaptiveResidueRigidity.outgoing_run_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.AdaptiveResidueRigidity.outgoing_run_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.AsymptoticCoefficientRigidity.correction_product_ge_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.AsymptoticCoefficientRigidity.correction_product_succ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.AsymptoticCoefficientRigidity.eventual_exponential_envelope' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.AsymptoticCoefficientRigidity.eventual_no_exponential_contraction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.AsymptoticCoefficientRigidity.eventual_parity_power_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.AsymptoticCoefficientRigidity.eventual_product_envelope' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.AsymptoticCoefficientRigidity.eventual_scaled_coefficient_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.AsymptoticCoefficientRigidity.eventually_correction_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.AsymptoticCoefficientRigidity.injective_escape' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.AsymptoticCoefficientRigidity.tail_product_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.AsymptoticCoefficientRigidity.visit_correction_ge_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.AsymptoticCoefficientRigidity.visit_correction_le_rate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.BinaryAdelicDuality.difference_abs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryAdelicDuality.difference_duality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryAdelicDuality.difference_padic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryAdelicDuality.half_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryAdelicDuality.half_power_abs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryAdelicDuality.half_power_duality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryAdelicDuality.half_power_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryAdelicDuality.two_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryConjugation.accelerated_exponent_invariant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.BinaryConjugation.actualCycle_candidate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryConjugation.actualCycle_conjugate_candidate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.BinaryConjugation.actualCycle_signed_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryConjugation.affine_conjugate_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryConjugation.affine_correction' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.BinaryConjugation.affine_correction_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryConjugation.affine_cycle_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryConjugation.affine_cycle_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryConjugation.affine_iff_correction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryConjugation.affine_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryConjugation.conjugate_involution' does not depend on any axioms
+'CollatzRunyan.BinaryConjugation.conjugate_ne_self' depends on axioms: [propext]
+'CollatzRunyan.BinaryConjugation.correction_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryConjugation.correction_eq_iff_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryConjugation.correction_valuation_invariant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.BinaryConjugation.cycleCandidate_exists_iff' depends on axioms: [propext]
+'CollatzRunyan.BinaryConjugation.cycleCandidate_neg_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryConjugation.cycleCandidate_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryConjugation.cycleDivisibility_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryConjugation.cycleObstruction_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryConjugation.evolve_conjugate' does not depend on any axioms
+'CollatzRunyan.BinaryConjugation.evolve_succ' does not depend on any axioms
+'CollatzRunyan.BinaryConjugation.evolve_zero' does not depend on any axioms
+'CollatzRunyan.BinaryConjugation.exactCycle_conjugate_with_candidate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.BinaryConjugation.exactPeriod_conjugate' does not depend on any axioms
+'CollatzRunyan.BinaryConjugation.exactValuation_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryConjugation.hits_one_iff' does not depend on any axioms
+'CollatzRunyan.BinaryConjugation.observable_invariant' does not depend on any axioms
+'CollatzRunyan.BinaryConjugation.oddNumerator_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryConjugation.parity_history_invariant' does not depend on any axioms
+'CollatzRunyan.BinaryConjugation.return_conjugate_iff' does not depend on any axioms
+'CollatzRunyan.BinaryConjugation.sectorSign_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryConjugation.sectorSign_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryConjugation.signed_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryConjugation.signed_eq_sectorSign' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryConjugation.signed_orbit_reflection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryConjugation.step_conjugate' does not depend on any axioms
+'CollatzRunyan.BinaryConjugation.two_power_dvd_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryConjugation.valuation_history_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryDynamicalCompatibility.antisymmetric_eigenvalue' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.BinaryDynamicalCompatibility.fixed_locus_preserved' depends on axioms: [propext]
+'CollatzRunyan.BinaryDynamicalCompatibility.squareMap_conjugate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.BinaryDynamicalCompatibility.squareMap_not_minus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.BinaryDynamicalCompatibility.squareMap_not_plus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.BinaryDynamicalCompatibility.symmetricMap_conjugate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.BinaryDynamicalCompatibility.symmetricMap_minus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.BinaryDynamicalCompatibility.symmetricMap_plus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.BinaryDynamicalCompatibility.symmetric_eigenvalue' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.BinarySpectralIteration.evolve_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinarySpectralIteration.evolve_spectral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinarySpectralIteration.half_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinarySpectralIteration.half_iteration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinarySpectralIteration.half_power_reciprocal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinarySpectralIteration.half_sum_preserved' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinarySpectralSymmetry.conjugate_involution' depends on axioms: [propext]
+'CollatzRunyan.BinarySpectralSymmetry.integral_split_iff' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.BinarySpectralSymmetry.integral_split_unique' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.BinarySpectralSymmetry.minus_anti_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinarySpectralSymmetry.minus_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinarySpectralSymmetry.minus_idempotent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinarySpectralSymmetry.minus_plus_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinarySpectralSymmetry.plus_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinarySpectralSymmetry.plus_idempotent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinarySpectralSymmetry.plus_invariant' depends on axioms: [propext]
+'CollatzRunyan.BinarySpectralSymmetry.plus_minus_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinarySpectralSymmetry.reconstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryStabilization.code_collision_in_interval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.BinaryStabilization.code_difference_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryStabilization.code_eq_iff_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryStabilization.code_eq_implies_prefix' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.BinaryStabilization.dvd_implies_prefix' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.BinaryStabilization.prefix_affine_difference' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.BinaryStabilization.prefix_collision_of_small_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.BinaryStabilization.prefix_difference_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryStabilization.prefix_iff_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryStabilization.prefix_implies_code_eq' does not depend on any axioms
+'CollatzRunyan.BinaryStabilization.residue_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryStabilization.residue_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryStabilization.residue_same_code' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryStabilization.residue_stabilizes_at' depends on axioms: [propext]
+'CollatzRunyan.BinaryStabilization.residue_stabilizes_from' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryStabilization.residue_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BinaryStabilization.two_mul_shortcut_even' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.BinaryStabilization.two_mul_shortcut_odd' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.BoundedCoefficientRigidity.coefficient_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BoundedCoefficientRigidity.cubic_step_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BoundedCoefficientRigidity.distinct_visit_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.BoundedCoefficientRigidity.exists_prefix_max' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.BoundedCoefficientRigidity.injective_avoids_small' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.BoundedCoefficientRigidity.injective_coefficient_unbounded' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.BoundedCoefficientRigidity.major_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BoundedCoefficientRigidity.major_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.BoundedCoefficientRigidity.orbit_product_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.BoundedCoefficientRigidity.prefix_coefficient_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.BoundedCoefficientRigidity.record_square_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CoalescentCoefficientRigidity.coefficient_step' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CoalescentCoefficientRigidity.compress_injective' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CoalescentCoefficientRigidity.distinct_visit_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CoalescentCoefficientRigidity.exists_prefix_max' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CoalescentCoefficientRigidity.injective_avoids_small' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CoalescentCoefficientRigidity.major_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CoalescentCoefficientRigidity.odd_rank_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CoalescentCoefficientRigidity.odd_rank_injective' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CoalescentCoefficientRigidity.orbit_product_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CoalescentCoefficientRigidity.orbit_three_free' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CoalescentCoefficientRigidity.prefix_coefficient_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CoalescentCoefficientRigidity.rank_major_ge_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CoalescentCoefficientRigidity.rank_major_range' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CoalescentCoefficientRigidity.ranked_ten_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CoalescentCoefficientRigidity.record_ninth_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CoalescentCoefficientRigidity.representative_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CoalescentCoefficientRigidity.representative_collision' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CoalescentCoefficientRigidity.representative_rank_allowed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CoalescentCoefficientRigidity.representative_visit_injective' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CoalescentCoefficientRigidity.shortcut_three_free' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CoalescentCoefficientRigidity.sibling_exclusion' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CoalescentCoefficientRigidity.sibling_steps' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CoalescentCoefficientRigidity.tenth_correction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CoalescentCoefficientRigidity.tenth_step_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CoalescentCoefficientRigidity.visit_rank_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CoalescentCoefficientRigidity.visit_rank_injective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CollatzAdelicCompatibility.collatz_abs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CollatzAdelicCompatibility.collatz_factor_height' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CollatzAdelicCompatibility.collatz_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CollatzAdelicCompatibility.collatz_padic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CollatzAdelicCompatibility.height_binary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CollatzAdelicCompatibility.height_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CollatzAdelicCompatibility.height_normalize' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CollatzAdelicCompatibility.normalized_of_factor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CollatzAdelicDrift.descent_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CollatzAdelicDrift.orbit_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CollatzAdelicDrift.step_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CollatzCorrectionBounds.corrected_growth_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CollatzCorrectionBounds.correction_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CollatzCorrectionBounds.correction_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CollatzCorrectionBounds.correction_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CollatzCorrectionBounds.nondescending_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CollatzCorrectionBounds.sufficient_descent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CollatzCycleAdmissibility.binary_residue_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CollatzCycleAdmissibility.exclude_prefix_residue' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CollatzCycleAdmissibility.prefix_binary_dvd' depends on axioms: [propext]
+'CollatzRunyan.CollatzCycleAdmissibility.prefix_exact_residue_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CollatzCycleAdmissibility.step_exact_residue_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CollatzCycleAffineRigidity.affine_balance' depends on axioms: [propext]
+'CollatzRunyan.CollatzCycleAffineRigidity.affine_numerator_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CollatzCycleAffineRigidity.closed_affine' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CollatzCycleAffineRigidity.closed_affine_discrepancy_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CollatzCycleAffineRigidity.closed_affine_dvd' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CollatzCycleAffineRigidity.exclude_affine' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CollatzCycleBudget.closed_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CollatzCycleBudget.closed_budget_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CollatzCycleBudget.closed_budget_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CollatzCycleExclusionCertificate.exclude_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CollatzCycleExclusionCertificate.integer_budget_window' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CollatzCycleMinimumRigidity.closed_minimum_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CollatzCycleMinimumRigidity.correction_relative_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CollatzCycleMinimumRigidity.exclude_minimum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CollatzCyclicRotationRigidity.affine_head' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CollatzCyclicRotationRigidity.budget_head' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CollatzCyclicRotationRigidity.discrepancy_odd' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CollatzCyclicRotationRigidity.odd_dvd_two_power_mul' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CollatzCyclicRotationRigidity.rotation_budget' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CollatzCyclicRotationRigidity.rotation_discrepancy' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CollatzCyclicRotationRigidity.rotation_identity' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CollatzCyclicRotationRigidity.rotation_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CollatzCyclicRotationRigidity.three_power_odd' depends on axioms: [propext]
+'CollatzRunyan.CollatzCyclicRotationRigidity.two_power_even' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CollatzIterationBridge.coefficient_agreement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CollatzIterationBridge.even_block' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CollatzIterationBridge.eventual_budget_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CollatzIterationBridge.normalized_agreement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CollatzIterationBridge.oddCount_add_bridge' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CollatzIterationBridge.odd_block' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CollatzIterationBridge.orbit_add_bridge' depends on axioms: [propext]
+'CollatzRunyan.CollatzIterationBridge.orbit_agreement' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CongruencePropagation.backward_defect' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CongruencePropagation.bounded_shadow_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CongruencePropagation.forward_defect' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CongruencePropagation.nonintegral_shadow_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CongruencePropagation.rational_core_example' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CongruencePropagation.rational_shadow' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CongruencePropagation.shadow_uniqueness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CongruencePropagation.simultaneous_shadow' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CoupledRunRigidity.backward_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CoupledRunRigidity.bounded_stabilization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CoupledRunRigidity.chain_affine' depends on axioms: [propext]
+'CollatzRunyan.CoupledRunRigidity.closed_denominator' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CoupledRunRigidity.coupled_example' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CoupledRunRigidity.forward_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CoupledRunRigidity.residue_rounding' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CoupledRunRigidity.stable_chain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CoupledRunRigidity.stable_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CriticalParityRigidity.critical_actual_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CriticalParityRigidity.critical_affine_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CriticalParityRigidity.critical_count_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CriticalParityRigidity.critical_distinct_prefix_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.CriticalParityRigidity.critical_even_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CriticalParityRigidity.critical_increment' depends on axioms: [propext]
+'CollatzRunyan.CriticalParityRigidity.critical_offset_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CriticalParityRigidity.critical_three_steps' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CriticalParityRigidity.critical_two_steps' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CriticalParityRigidity.critical_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CycleBoundConflict.block_numerator_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CycleBoundConflict.block_numerator_relaxed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CycleBoundConflict.cycle_square_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CycleBoundConflict.divisor_product_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CycleBoundConflict.full_split_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CycleBoundConflict.separation_conflict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CycleBoundConflict.split_product_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CycleBoundConflict.two_pow_le_three_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CycleCoreRigidity.core_divisibility_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CycleCoreRigidity.core_mod_power' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CycleCoreRigidity.powers_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CycleCoreRigidity.shadow_not_cycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CycleCoreRigidity.shadow_param_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CycleCoreRigidity.shadow_param_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CycleCoreRigidity.shadow_steps' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CycleExclusionResearch.cycle_min_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CycleExclusionResearch.cycle_run_count_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CycleExclusionResearch.grid_at_least_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CycleExclusionResearch.grid_identity' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CycleExclusionResearch.odd_run_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CycleExclusionResearch.odd_step_telescope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CycleExclusionResearch.run_endpoint_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CycleExclusionResearch.twice_shortcut_odd' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CycleMinimaResearch.even_run_scale' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CycleMinimaResearch.local_minimum_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CycleMinimaResearch.local_minimum_transition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CycleMinimaResearch.minima_chain_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CycleMinimaResearch.next_minimum_not_multiple_three' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CycleMinimaResearch.odd_run_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CycleMinimaResearch.odd_run_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CycleMinimaResearch.orbit_add' depends on axioms: [propext]
+'CollatzRunyan.CycleMinimaResearch.power_ratio_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.CycleMinimaResearch.twice_shortcut_even' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.CycleMinimaResearch.twice_shortcut_odd' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.DenominatorRigidity.adjacent_swap_forces_unit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.DenominatorRigidity.contextual_swap_gap' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.DenominatorRigidity.coprime_gap_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.DenominatorRigidity.difference_coprime' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.DenominatorRigidity.middle_swap_gap' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.DenominatorRigidity.rotation_divisibility_iff' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.DenominatorRigidity.two_position_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.Descent.affine_trajectory' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.Descent.affine_trajectory_pow' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.Descent.certificate_iff_convergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.Descent.certificate_iff_descent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.Descent.coeffA_eq_pow' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.Descent.convergence_implies_descent' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.Descent.descent_iff_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.Descent.descent_iff_convergence' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.Descent.descent_implies_convergence' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.Descent.even_descends' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.Descent.factor_eq_pow' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.Descent.four_add_one_descends' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.Descent.nonconvergence_implies_nondescending' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.Descent.orbit_add' depends on axioms: [propext]
+'CollatzRunyan.Descent.orbit_pos' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.Descent.orbit_two_four_add_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.Descent.shortcut_four_add_one' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.Descent.shortcut_pos' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.Descent.step_affine' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.DiophantineGap.affine_prefix' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.DiophantineGap.fifty_billion_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.DiophantineGap.first_crossing_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.DiophantineGap.fixed_grid_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.DiophantineGap.gap_descent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.DiophantineGap.offset_linear_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.DiophantineGap.rational_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.DiophantineGap.twice_shortcut_even' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.DiophantineGap.twice_shortcut_odd' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.ExceptionalGapRigidity.bounded_weight_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.ExceptionalGapRigidity.closing_weight' depends on axioms: [propext]
+'CollatzRunyan.ExceptionalGapRigidity.ordinary_weight' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.ExceptionalGapRigidity.positive_small_not_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ExceptionalGapRigidity.three_unit_gap_example' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.ExceptionalGapRigidity.unit_gap_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ExceptionalGapRigidity.weight_sum_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ExceptionalGapRigidity.weighted_chain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ExceptionalGapRigidity.weighted_cycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.FamilyCoalescenceRigidity.allowed_residue_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.FamilyCoalescenceRigidity.eligible_representative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.FamilyCoalescenceRigidity.family_comparable' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.FamilyCoalescenceRigidity.family_merge' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.FamilyCoalescenceRigidity.family_minimum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.FamilyCoalescenceRigidity.family_penultimate' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.FamilyCoalescenceRigidity.family_refl' depends on axioms: [propext]
+'CollatzRunyan.FamilyCoalescenceRigidity.family_step' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.FamilyCoalescenceRigidity.family_trans' depends on axioms: [propext]
+'CollatzRunyan.FamilyCoalescenceRigidity.family_visit_unique' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.FamilyCoalescenceRigidity.orbit_add' depends on axioms: [propext]
+'CollatzRunyan.FamilyCoalescenceRigidity.orbit_pow_two' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.FamilyCoalescenceRigidity.orbit_shift' depends on axioms: [propext]
+'CollatzRunyan.FamilyCoalescenceRigidity.proper_family_exclusion' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.FamilyCoalescenceRigidity.removed_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.FamilyCoalescenceRigidity.removed_second' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.FamilyCoalescenceRigidity.representative_residue' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.FamilyCoalescenceRigidity.shared_family_visit_unique' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.FamilyCoalescenceRigidity.shortcut_even' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.FamilyCoalescenceRigidity.shortcut_odd' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.FamilyCoefficientRigidity.correction_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.FamilyCoefficientRigidity.distinct_family_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.FamilyCoefficientRigidity.eligible_odd_visit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.FamilyCoefficientRigidity.finite_weight_ge_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.FamilyCoefficientRigidity.orbit_agreement' does not depend on any axioms
+'CollatzRunyan.FamilyCoefficientRigidity.orbit_product_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.FamilyCoefficientRigidity.prefix_as_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.FamilyCoefficientRigidity.prefix_coefficient_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.FamilyCoefficientRigidity.record_twenty_ninth_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.FamilyCoefficientRigidity.representative_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.FamilyCoefficientRigidity.representative_visit_injective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.FamilyCoefficientRigidity.representative_weight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.FamilyCoefficientRigidity.shortcut_product_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.FamilyCorrectionProduct.allowed_residue_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.FamilyCorrectionProduct.block_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.FamilyCorrectionProduct.block_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.FamilyCorrectionProduct.block_power_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.FamilyCorrectionProduct.complete_blocks_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.FamilyCorrectionProduct.correction_block_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.FamilyCorrectionProduct.correction_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.FamilyCorrectionProduct.family_product_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.FamilyCorrectionProduct.first_block_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.FamilyCorrectionProduct.interval_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.FamilyCorrectionProduct.large_prefix_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.FamilyCorrectionProduct.positive_block' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.FamilyCorrectionProduct.prefix_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.FamilyCorrectionProduct.prefix_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.FamilyCorrectionProduct.prefix_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.FamilyCorrectionProduct.small_prefix_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.FamilyCorrectionProduct.symmetric_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.FamilyCorrectionProduct.uniform_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.FamilyCorrectionProduct.uniform_power_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.FamilyCorrectionProduct.weight_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ForcedZeroSum.common_divisor_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ForcedZeroSum.large_modulus_exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ForcedZeroSum.no_collision_cardinality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ForcedZeroSum.nontrivial_cycle_divisor_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ForcedZeroSum.positive_divisor_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ForcedZeroSum.prefix_collision_forced' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ForcedZeroSum.proper_divisor_counterexample' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.ForcedZeroSum.rational_two_gap_return' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.affine_pair_coalescence' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.averaged_transfer_no_contraction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.GeometricSpectral.basinWeight_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.basin_double_iff' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.basin_odd_branch_iff' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.basin_one' does not depend on any axioms
+'CollatzRunyan.GeometricSpectral.basin_orbit_iff' does not depend on any axioms
+'CollatzRunyan.GeometricSpectral.basin_step_iff' does not depend on any axioms
+'CollatzRunyan.GeometricSpectral.binary_cylinder_affine' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.binary_cylinder_basin_iff' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.binary_cylinder_lift' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.binary_cylinder_lift_of_mod' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.coalescence_128_95' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.coalescence_256_63' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.coalescence_64_15' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.coalescing_basin_iff' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.coefficient_no_descent_at' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.coefficient_prefix_no_descent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.GeometricSpectral.converges_iff_no_positive_missing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.GeometricSpectral.cycle4' does not depend on any axioms
+'CollatzRunyan.GeometricSpectral.cycle4_double_return' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.cycle4_oddCount' does not depend on any axioms
+'CollatzRunyan.GeometricSpectral.cycle4_twist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.cylinder_endpoint_nonmultiple_three' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.even_cycle_orientation' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.even_prefix_exact' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.exp_linear_eq_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.five_branch_lower_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.five_branch_no_two_type_contraction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.GeometricSpectral.five_branch_rational_certificates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.GeometricSpectral.five_branch_residue_table' depends on axioms: [propext]
+'CollatzRunyan.GeometricSpectral.five_branch_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.frickeKernel_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.fricke_defect_iff_of_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.GeometricSpectral.fricke_missing_series_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.gaussianWeight_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.gaussian_missing_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.gaussian_missing_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.gaussian_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.least_missing_excludes_affine_pair' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.least_missing_excludes_inverse_cylinder' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.least_missing_excludes_progression' depends on axioms: [propext]
+'CollatzRunyan.GeometricSpectral.least_missing_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.least_missing_gt_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.least_missing_joint_sieve' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.least_missing_mod256_stage5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.least_missing_mod36_stage5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.least_missing_mod9_stage5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.least_missing_mod_twelve' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.least_missing_no_smaller_coalescence' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.least_missing_not_128_59' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.least_missing_not_128_7' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.least_missing_not_128_95' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.least_missing_not_16_3' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.least_missing_not_256_123' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.least_missing_not_256_175' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.least_missing_not_256_199' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.least_missing_not_256_219' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.least_missing_not_256_39' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.least_missing_not_256_63' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.least_missing_not_32_11' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.least_missing_not_32_23' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.least_missing_not_64_15' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.least_missing_not_four_mod_nine' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.GeometricSpectral.least_missing_not_two_mod_three' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.GeometricSpectral.least_missing_orbit_minimum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.least_missing_three_mod_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.GeometricSpectral.liftOrbit_formula' depends on axioms: [propext]
+'CollatzRunyan.GeometricSpectral.missingIndicator_double' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.missingIndicator_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.missingWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.missingWeight_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.missing_arbitrarily_long_even_prefix' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.GeometricSpectral.missing_arbitrarily_long_odd_prefix' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.GeometricSpectral.missing_count_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.missing_double_iff' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.missing_hits_orbit_minimum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.missing_orbit_iff' does not depend on any axioms
+'CollatzRunyan.GeometricSpectral.missing_pow_two_iff' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.missing_seed_nonmultiple_three' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.GeometricSpectral.missing_unbounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.mobius_radius_sq_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.multiple_three_no_smaller_ancestor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.GeometricSpectral.multiple_three_preimage_double' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.GeometricSpectral.nat_progression_of_mod' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.odd_cycle_orientation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.odd_inverse_missing_iff' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.odd_inverse_of_even_mod_three' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.odd_inverse_prefix_count' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.orbit_add' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.orbit_minimum_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.parity_add_even' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.positive_missing_series_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.positive_orbit_minimum_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.positive_product_ratio_eq_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.GeometricSpectral.prefix_minimum_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.reflection_fixed_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.shortcutOrbit_add_stage3' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.shortcutOrbit_pos_stage3' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.shortcut_add_even' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.shortcut_basin_iff' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.shortcut_coefficient_lower' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.shortcut_floor_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.shortcut_floor_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.shortcut_odd_nonmultiple_three' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.shortcut_orbit_basin_iff' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.shortcut_orbit_nonmultiple_three' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.shortcut_pos_stage3' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.shortcut_preserves_nonmultiple_three' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.shortcut_twice_formula' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.shortcut_zero_iterates' depends on axioms: [propext]
+'CollatzRunyan.GeometricSpectral.stage5_binary_table' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.stage6_all_odd_no_equal_depth_smaller' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.GeometricSpectral.stage6_all_odd_shifted' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.stage6_certificate_excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.stage6_certificate_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.stage6_chain_excludes_least' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.stage6_coalesces_basin_iff' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.stage6_coalesces_refl' does not depend on any axioms
+'CollatzRunyan.GeometricSpectral.stage6_coalesces_symm' does not depend on any axioms
+'CollatzRunyan.GeometricSpectral.stage6_coalesces_trans' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.stage6_shifted_orbit_upper' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.stage6_shifted_step_upper' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.step_double' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.step_odd' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.step_pos' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GeometricSpectral.symmetricPolynomial_reflect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.symmetry_not_zero_confinement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.GeometricSpectral.thetaKernel_missing_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.GeometricSpectral.thetaKernel_missing_summable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.GeometricSpectral.thetaKernel_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.thetaKernel_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.theta_defect_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.theta_defect_iff_of_jacobi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.theta_equality_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.theta_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GeometricSpectral.two_even_power_mod_three' depends on axioms: [propext]
+'CollatzRunyan.GeometricSpectral.universal_smaller_coalescence_implies_converges' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.GlobalParity.orbit_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GlobalParity.prefix_affine_difference' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GlobalParity.prefix_collision_of_small_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.GlobalParity.prefix_difference_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GlobalParity.shortcut_growth' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GlobalParity.shortcut_nonneg' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GlobalParity.two_mul_shortcut_even' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GlobalParity.two_mul_shortcut_odd' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GlobalRunRigidity.core_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GlobalRunRigidity.global_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GlobalRunRigidity.incoming_residue' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GlobalRunRigidity.runProduct_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GlobalRunRigidity.runProduct_mul' depends on axioms: [propext]
+'CollatzRunyan.GlobalRunRigidity.runProduct_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GlobalRunRigidity.run_ratio_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.GlobalRunRigidity.run_ratio_identity' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.GlobalRunRigidity.strict_refinement_example' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.IntegralityRigidity.coprime_joint_residue' depends on axioms: [propext]
+'CollatzRunyan.IntegralityRigidity.incoming_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.IntegralityRigidity.interval_exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.IntegralityRigidity.joint_only_example' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.IntegralityRigidity.joint_product_exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.IntegralityRigidity.least_representative_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.IntegralityRigidity.nonneg_power_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.IntegralityRigidity.outgoing_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.IntegralityRigidity.product_bound_at_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.IntegralityRigidity.two_sided_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.IntegratedNonDescentRigidity.integrated_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.IntegratedNonDescentRigidity.prefix_budget_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.IntegratedNonDescentRigidity.recurring_budget_forces_repeat' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.arithmetic_coefficients' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.arithmetic_ratio_excludes_bounded_inverse_rule' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.arithmetic_ratio_excludes_direct_sum_rule' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.arithmetic_ratio_forces_gt_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.arithmetic_ratio_gt_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.bounded_inverse_rule_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.heron_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.inverse_sum_rule_ratio_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.juno_central_ratio_gt_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.normalized_tm1_degenerate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.ordered_mass_sum_rule' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.spectral_moments_imply_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_axis_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_circle_involution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_diag_square_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_diag_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_discriminant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_j_involution_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_jarlskog_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_opposite_update_eigenvalues' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_orientation_block_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_orientation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_orientation_reactor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_projective_circle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_rank_one_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_rank_one_no_mixing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_similarity_moments' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_square_similarity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_texture_components' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_texture_spectral_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_three_singlet_tm1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_trace_cycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_trace_similarity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_two_singlet_tm1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_universal_coupling_obstruction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_update_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_update_indefinite_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_update_not_rank_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_update_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_weight4_branches' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_weight4_complex_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_weight4_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_weight4_real_branch_equal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage2_weight8_projective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_channel_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_channel_indefinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_channel_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_channel_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_channel_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_equal_dirac_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_equal_strength_no_rotation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_equal_strength_no_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_fixed_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_fixed_refined' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_frame_power_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_frame_refinement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_frame_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_full_mass_congruence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_full_metric_canonical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_heavy_basis_cancel' depends on axioms: [propext]
+'CollatzRunyan.LeptonSpectral.stage3_inverse_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_kinetic_canonical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_original_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_parity_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_positive_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_positive_strengths' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_projector_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_raw_compensation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_reactor_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_refined_coupling_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_refined_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_scale_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_seesaw_phase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_squared_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_stretch_block' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_third_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_third_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage3_whitened_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_angular_minimum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_angular_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_balanced_half_active' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_balanced_mass_cancel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_balanced_metric_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_balanced_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_balanced_pair_char' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_balanced_pair_eigenvector' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_balanced_pair_matrix_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_competing_driving_no_solution' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_correlated_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_correlated_mass_components' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_cross_driver_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_cross_driver_rigidity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_distinct_tensor_entries' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_driving_charge_obstruction' depends on axioms: [propext]
+'CollatzRunyan.LeptonSpectral.stage4_joint_constraint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_mediator_inverse_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_metric_active_weight_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_metric_anisotropy_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_metric_char' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_metric_protected_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_metric_second_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_one_mediator_char' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_one_mediator_eigenvector' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_one_mediator_matrix_eigenvector' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_positive_heavy_obstruction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_protected_vector_nonzero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_resolvent_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_tensor_gram_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_tensor_invariants' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_vacuum_components' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_vacuum_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_vacuum_zero_set' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage4_vertical_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_centered_determinant_expansion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_centered_matrix_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_channel_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_common_mediator_constraint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_common_mediator_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_cp_offdiagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_cp_seesaw_numerator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_direct_mass_asymmetry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_exact_dirac_refined' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_exact_schur_protection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_five_state_matrix_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_five_state_shifted_eigenvector' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_four_state_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_general_block_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_heavy_diagonal_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_mediator_angle_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_messenger_diagonal_weights' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_metric_kernel_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_metric_kernel_transport_nonzero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_mixing_suppression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_nonorthogonal_character_rigidity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_protected_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_protected_vector_nonzero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_protected_weight_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_radiative_offdiagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_radiative_ratio_stationary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_rank_nullity_protection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_rank_one_constraint_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_rectangular_cross_nonzero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_rectangular_kernel_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_refined_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_reflection_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_scalar_geometry_rigidity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_scalar_perturbation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_scalar_refinement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_scalar_square_commutes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_scalar_vacuum_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_schur_mediator_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_seesaw_scaling' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_unitary_parity_obstruction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage5_zero_block_perturbation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_affine_commutator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_affine_compose' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_affine_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_affine_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_affine_gram_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_affine_gram_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_affine_mod3_characteristic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_affine_mod3_row_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_applyWord_append' depends on axioms: [propext]
+'CollatzRunyan.LeptonSpectral.stage6_arithmetic_centered_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_distinct_diagonal_commutant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_graph_minimum_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_graph_minimum_order' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_hybrid_atmospheric_eigenvector' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_hybrid_first_eigenvector' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_hybrid_root_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_hybrid_solar_eigenvector' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_hybrid_sterile_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_integer_symmetrization_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_localized_trace_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_prime67_trace_det_obstruction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_projector_commutant_rigidity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_radiative_ratio_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_residue_embedding_injective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_residue_intertwining' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_scaled_target_exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_sterile_perturbation_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_sum_branch_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_sum_normalized_gram_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_sum_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_sum_ratio_exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_sum_ratio_integer_exclusion' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_target_invariants' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_target_mod_seven_no_root' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_target_symmetric_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_target_symmetric_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_word_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_word_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_word_det_mod67' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage6_word_gram_exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_aggregate_gram_det' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_branch_probability_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_conditioned_numerator_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_descent_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_dispersion_mod_four' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_dispersion_pair' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_endpoint_decay_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_endpoint_ratio_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_ensemble_target_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_equal_projector_rank_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_exponential_linear_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_first_count_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_fixed_count_conditioning' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_fractional_overlap_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_gram_actual_uniform_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_gram_closed_form' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_gram_closed_normalization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_gram_closed_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_gram_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_gram_matrix_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_gram_normalized_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_gram_normalized_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_gram_scale_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_gram_spectral_circle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_gram_tail_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_gram_trace_divisibility' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_gram_uniform_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_gram_uniform_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_likelihood_ratio_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_limiting_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_limiting_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_limiting_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_mixed_overlap_exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_mod_sixteen_square_eight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_mod_three_rigidity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_mod_three_square_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_moment_odd_extension' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_nonnegative_target_rigidity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_positive_polynomial_final_obstruction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_projector_invariant_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_projector_span_invariants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_sqrt_three_irrational' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_sum_squares_classification' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_symmetric_integer_classification' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_target_circle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage7_target_overlap_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_affine_residue_certificate' does not depend on any axioms
+'CollatzRunyan.LeptonSpectral.stage8_branch_moment_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_branch_moment_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_branch_moment_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_congruence_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_correction_branch_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_correction_branch_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_correction_word_invariant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_forward_closed_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_forward_cov_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_forward_cov_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_forward_det_mod25' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_forward_det_nonsquare' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_forward_det_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_forward_int_det' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_forward_integer_cov_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_forward_limit_invariants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_forward_mean_a' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_forward_mean_b' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_forward_moments_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_forward_power_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_forward_residue_power' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_forward_scaled_components' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_forward_second_a' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_forward_second_ab' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_forward_second_b' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_forward_square_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_forward_target_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_forward_target_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_forward_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_fractional_duality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_fractional_duality_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_inverse_closed_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_inverse_cov_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_inverse_cov_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_inverse_det_mod9' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_inverse_det_nonsquare' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_inverse_det_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_inverse_int_det' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_inverse_integer_cov_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_inverse_limit_invariants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_inverse_limit_roots' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_inverse_mean_r' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_inverse_mean_z' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_inverse_moments_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_inverse_power_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_inverse_residue_power' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_inverse_scaled_components' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_inverse_second_r' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_inverse_second_rz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_inverse_second_z' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_inverse_square_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_inverse_target_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_inverse_target_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_inverse_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_mean_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_normalized_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_normalized_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_shifted_perpetuity_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage8_shifted_perpetuity_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_basel_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_basel_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_basin_double' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_basin_mass_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_basin_one' does not depend on any axioms
+'CollatzRunyan.LeptonSpectral.stage9_basin_orbit' does not depend on any axioms
+'CollatzRunyan.LeptonSpectral.stage9_basin_power_two' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_basin_step' does not depend on any axioms
+'CollatzRunyan.LeptonSpectral.stage9_basin_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_basin_weight_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_cycle_balance' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_cylinder_affine' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_cylinder_basin' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_cylinder_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_defect_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_fixed_on_basin' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_fixed_orbit' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_fixed_unique_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_indicator_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_indicator_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_indicator_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_inverse_residue' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_mellin_first_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_mellin_second_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_missing_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_missing_weight_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_normalized_residue' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_one_step_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_orbit_add' depends on axioms: [propext]
+'CollatzRunyan.LeptonSpectral.stage9_orbit_affine' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_orbit_affine_int' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_orbit_divisibility' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_orbit_pos' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_parity_shift' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_step_affine' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_step_even' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_step_odd' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_step_one' does not depend on any axioms
+'CollatzRunyan.LeptonSpectral.stage9_step_pos' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_step_shift' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_step_two' does not depend on any axioms
+'CollatzRunyan.LeptonSpectral.stage9_tsum_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_weight_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_zeta_two_hasSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_zeta_two_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_zeta_two_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.stage9_zeta_two_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.sum_rule_atmospheric_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.sum_rule_ratio_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.texture_tm1_components' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.tm1_complex_nonzero_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.tm1_complex_projective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.tm1_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.tm1_modular_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.tm1_real_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.trace_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.trace_product_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LeptonSpectral.trace_rigidity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LocalDivisorRigidity.adjacent_core_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LocalDivisorRigidity.adjacent_core_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LocalDivisorRigidity.coprime_joint_residue' depends on axioms: [propext]
+'CollatzRunyan.LocalDivisorRigidity.incoming_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LocalDivisorRigidity.joint_only_example' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LocalDivisorRigidity.least_representative_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LocalDivisorRigidity.local_offset_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LocalDivisorRigidity.outgoing_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LogarithmicDeficitRigidity.correction_nine_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LogarithmicDeficitRigidity.correction_nine_identity' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LogarithmicDeficitRigidity.distinct_visit_descent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LogarithmicDeficitRigidity.even_index_rank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LogarithmicDeficitRigidity.nondescending_coefficient_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LogarithmicDeficitRigidity.odd_spacing' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.LogarithmicDeficitRigidity.ranked_nine_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LogarithmicDeficitRigidity.ranked_product_envelope' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LogarithmicDeficitRigidity.sorted_rank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LogarithmicDeficitRigidity.sorted_visit_descent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.LogarithmicDeficitRigidity.three_free_spacing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LogarithmicDeficitRigidity.visitProduct_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.LogarithmicDeficitRigidity.visitProduct_pow' depends on axioms: [propext]
+'CollatzRunyan.ModularWeightRigidity.counterexample_excluded' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.ModularWeightRigidity.minimization_counterexample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.ModularWeightRigidity.odd_signed_count_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.ModularWeightRigidity.opposite_pair_cancel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ModularWeightRigidity.opposite_pair_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.ModularWeightRigidity.positive_small_not_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ModularWeightRigidity.residue_dvd_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ModularWeightRigidity.signed_count_exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ModularWeightRigidity.signed_count_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ModularWeightRigidity.small_residual_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.ModularWeightRigidity.zero_block_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ParityComplexity.code_collision_in_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ParityComplexity.code_difference_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ParityComplexity.code_eq_implies_prefix' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.ParityComplexity.finite_code_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ParityComplexity.finite_orbit_complexity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ParityComplexity.prefix_affine_difference' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.ParityComplexity.prefix_collision_of_small_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.ParityComplexity.prefix_difference_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ParityComplexity.two_mul_shortcut_even' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.ParityComplexity.two_mul_shortcut_odd' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.ParityDriftConflict.all_odd_run_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ParityDriftConflict.arbitrarily_large_all_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ParityDriftConflict.certified_deficit_forces_repeat' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.ParityDriftConflict.eventual_above_certified_frequency' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.ParityDriftConflict.eventual_above_five_eighths' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.ParityDriftConflict.no_uniform_block_contraction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.ParityEntropy.nondescending_odd_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ParityEntropy.odd_cube_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ParityEntropy.step_cube_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ParityEntropy.twice_shortcut_even' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.ParityEntropy.twice_shortcut_odd' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.ParityEntropy.weighted_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ParityRigidity.affine_repeat_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ParityRigidity.affine_telescoping' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.ParityRigidity.parity_repeat_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ParityRigidity.parity_repeat_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ParityRigidity.two_three_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ParityRigidity.zero_discriminant_return' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.PrimePowerCorrections.correction_chain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.PrimePowerCorrections.cycle_weighted_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.PrimePowerCorrections.exception_multiplier' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.PrimePowerCorrections.higher_power_two_exception_example' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.PrimePowerCorrections.ordinary_segment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.PrimePowerCorrections.two_exception_count' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.PrimePowerCorrections.two_exception_segments' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.PrimePowerRigidity.affine_count_iff' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.PrimePowerRigidity.affine_defect_chain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.PrimePowerRigidity.affine_defect_step' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.PrimePowerRigidity.chain_defect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.PrimePowerRigidity.cycle_count_divisible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.PrimePowerRigidity.higher_power_example' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.PrimePowerRigidity.prime_power_gap_obstruction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.PrimePowerRigidity.step_defect' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.SparseCoefficientRigidity.coefficient_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.SparseCoefficientRigidity.distinct_visit_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.SparseCoefficientRigidity.exists_prefix_max' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.SparseCoefficientRigidity.injective_avoids_small' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.SparseCoefficientRigidity.major_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.SparseCoefficientRigidity.ninth_step_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.SparseCoefficientRigidity.odd_rank_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.SparseCoefficientRigidity.odd_rank_injective' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.SparseCoefficientRigidity.orbit_product_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.SparseCoefficientRigidity.orbit_three_free' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.SparseCoefficientRigidity.prefix_coefficient_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.SparseCoefficientRigidity.rank_major_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.SparseCoefficientRigidity.rank_major_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.SparseCoefficientRigidity.ranked_nine_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.SparseCoefficientRigidity.record_eighth_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.SparseCoefficientRigidity.shortcut_three_free' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.StabilizedCoreRigidity.all_cores_dvd' depends on axioms: [propext]
+'CollatzRunyan.StabilizedCoreRigidity.chain_defect_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.StabilizedCoreRigidity.closed_seed_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.StabilizedCoreRigidity.common_divisor_example' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.StabilizedCoreRigidity.core_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.StabilizedCoreRigidity.offset_from_cores' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.StabilizedCoreRigidity.reduced_divisor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.StabilizedCoreRigidity.transfer_divisor' depends on axioms: [propext]
+'CollatzRunyan.StoppingTimeBounds.affine_gap_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.StoppingTimeBounds.crossing_depth_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.StoppingTimeBounds.grid_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.StoppingTimeBounds.grid_exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.StoppingTimeBounds.grid_identity' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.StoppingTimeBounds.odd_count_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.SurvivingResidueTree.affine_nondescending_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.SurvivingResidueTree.affine_prefix' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.SurvivingResidueTree.first_crossing_descent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.SurvivingResidueTree.first_crossing_exception' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.SurvivingResidueTree.odd_position_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.SurvivingResidueTree.odd_weight_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.SurvivingResidueTree.offset_le_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.SurvivingResidueTree.twice_shortcut_even' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.SurvivingResidueTree.twice_shortcut_odd' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.TwoAdicSectorDecomposition.canonical_sector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.TwoAdicSectorDecomposition.canonical_sector_exclusive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.TwoAdicSectorDecomposition.exactValuation_factor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.TwoAdicSectorDecomposition.exactValuation_unique_factor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.TwoAdicSectorDecomposition.factor_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.TwoAdicSectorDecomposition.oddUnit_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.TwoAdicSectorDecomposition.oddUnit_residues' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.TwoAdicSectorDecomposition.power_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.TwoAdicSectorDecomposition.reflected_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.TwoAdicSectorDecomposition.unitSector_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.UniversalDescentRigidity.correction_six_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.UniversalDescentRigidity.correction_six_identity' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.UniversalDescentRigidity.distinct_visit_descent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.UniversalDescentRigidity.nondescending_coefficient_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.UniversalDescentRigidity.ranked_correction_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.UniversalDescentRigidity.ranked_product_envelope' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.UniversalDescentRigidity.visitProduct_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.UniversalDescentRigidity.visitProduct_pow' depends on axioms: [propext]
+'CollatzRunyan.UniversalStoppingResearch.finite_record_obstruction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.UniversalStoppingResearch.no_infinite_record_family' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.UniversalStoppingResearch.positive_record_count' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CollatzRunyan.UniversalStoppingResearch.record_max_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ZeroSumRigidity.affine_split' depends on axioms: [propext]
+'CollatzRunyan.ZeroSumRigidity.block_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ZeroSumRigidity.complementary_blocks' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ZeroSumRigidity.full_denominator_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ZeroSumRigidity.positive_multiple_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ZeroSumRigidity.proper_zero_segment_example' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.ZeroSumRigidity.small_cycle_no_zero_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.ZeroSumRigidity.zero_split_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.admissible_entry_zero' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.affine_commutator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.boost_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.descent_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.f0_left_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.f0_right_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.f1_left_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.f1_right_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.hermitian_determinant_formula' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.lorentzian_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CollatzRunyan.matrix_unit_mul' depends on axioms: [propext]
+'CollatzRunyan.no_complement' depends on axioms: [propext, Quot.sound]
+'CollatzRunyan.pell_137' depends on axioms: [propext]
+'CollatzRunyan.pell_thirtyseven' depends on axioms: [propext]
+'CollatzRunyan.pell_three' depends on axioms: [propext]
+'CollatzRunyan.supported_pairing_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

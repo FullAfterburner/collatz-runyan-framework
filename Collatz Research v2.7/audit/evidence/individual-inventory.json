@@ -1,0 +1,5405 @@
+{
+  "status": "passed",
+  "modules": 64,
+  "declarations": 1056,
+  "records": [
+    {
+      "module": "AdaptiveResidueRigidity",
+      "source": "Collatz Research v2.4/AdaptiveResidueRigidity.lean",
+      "source_sha256": "22ea6a3f4a444486cc176ddd0c819752fcbb573f87242fcc34c29d0f0ad13378",
+      "compiled_sha256": "11c43880202dfe1f7baac1188d232e81e392a7a4cbd417e26c761316b9ce1ca4",
+      "declarations": {
+        "CollatzRunyan.AdaptiveResidueRigidity.incoming_run_identity": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.AdaptiveResidueRigidity.incoming_run_residue": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.AdaptiveResidueRigidity.interval_unique": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.AdaptiveResidueRigidity.local_residue_exists": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.AdaptiveResidueRigidity.long_run_exclusion": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.AdaptiveResidueRigidity.long_run_lower": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.AdaptiveResidueRigidity.outgoing_run_identity": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.AdaptiveResidueRigidity.outgoing_run_residue": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "BinaryConjugation",
+      "source": "Collatz Research v2.6/BinaryConjugation.lean",
+      "source_sha256": "1526cdae67507395865b126af86cbfb85cecd5e39ecc1dfb4911a703bcf4a50d",
+      "compiled_sha256": "949c6581cb29c536a869a20a4dc85d62a504cd8ef7678c5c6ee32b2c3ebdfb5b",
+      "declarations": {
+        "CollatzRunyan.BinaryConjugation.accelerated_exponent_invariant": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryConjugation.affine_transport": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryConjugation.conjugate_involution": [],
+        "CollatzRunyan.BinaryConjugation.conjugate_ne_self": [
+          "propext"
+        ],
+        "CollatzRunyan.BinaryConjugation.evolve_conjugate": [],
+        "CollatzRunyan.BinaryConjugation.evolve_succ": [],
+        "CollatzRunyan.BinaryConjugation.evolve_zero": [],
+        "CollatzRunyan.BinaryConjugation.exactPeriod_conjugate": [],
+        "CollatzRunyan.BinaryConjugation.exactValuation_neg": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryConjugation.hits_one_iff": [],
+        "CollatzRunyan.BinaryConjugation.observable_invariant": [],
+        "CollatzRunyan.BinaryConjugation.oddNumerator_conjugate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryConjugation.parity_history_invariant": [],
+        "CollatzRunyan.BinaryConjugation.return_conjugate_iff": [],
+        "CollatzRunyan.BinaryConjugation.signed_conjugate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryConjugation.signed_orbit_reflection": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryConjugation.step_conjugate": [],
+        "CollatzRunyan.BinaryConjugation.two_power_dvd_neg": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryConjugation.valuation_history_invariant": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "BinarySpectralSymmetry",
+      "source": "Collatz Research v2.6/BinarySpectralSymmetry.lean",
+      "source_sha256": "f807fdfa2a9b7dfb78afd5d38e305f94706727c9c1bbf6192875f39ee111e749",
+      "compiled_sha256": "5b75ce8628a398dee3b9924757ad8591e3709ed30b0a5c06d9b2ffca8dbc3b50",
+      "declarations": {
+        "CollatzRunyan.BinarySpectralSymmetry.conjugate_involution": [
+          "propext"
+        ],
+        "CollatzRunyan.BinarySpectralSymmetry.integral_split_iff": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinarySpectralSymmetry.integral_split_unique": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinarySpectralSymmetry.minus_anti_invariant": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinarySpectralSymmetry.minus_conjugate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinarySpectralSymmetry.minus_idempotent": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinarySpectralSymmetry.minus_plus_zero": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinarySpectralSymmetry.plus_conjugate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinarySpectralSymmetry.plus_idempotent": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinarySpectralSymmetry.plus_invariant": [
+          "propext"
+        ],
+        "CollatzRunyan.BinarySpectralSymmetry.plus_minus_zero": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinarySpectralSymmetry.reconstruction": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "BinaryStabilization",
+      "source": "Collatz Research v2.3/BinaryStabilization.lean",
+      "source_sha256": "2480348972bf6382684da8e76d218349396c420565a1b2e335a53e267d937720",
+      "compiled_sha256": "1f5e7ebb94265ec20de8359a894a8e68f5fc083528eb9edfdf9fec6ce7d62eb6",
+      "declarations": {
+        "CollatzRunyan.BinaryStabilization.code_collision_in_interval": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryStabilization.code_difference_dvd": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryStabilization.code_eq_iff_dvd": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryStabilization.code_eq_implies_prefix": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryStabilization.dvd_implies_prefix": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryStabilization.prefix_affine_difference": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryStabilization.prefix_collision_of_small_difference": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryStabilization.prefix_difference_dvd": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryStabilization.prefix_iff_dvd": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryStabilization.prefix_implies_code_eq": [],
+        "CollatzRunyan.BinaryStabilization.residue_bounds": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryStabilization.residue_lift": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryStabilization.residue_same_code": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryStabilization.residue_stabilizes_at": [
+          "propext"
+        ],
+        "CollatzRunyan.BinaryStabilization.residue_stabilizes_from": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryStabilization.residue_unique": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryStabilization.two_mul_shortcut_even": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryStabilization.two_mul_shortcut_odd": [
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "BoundedCoefficientRigidity",
+      "source": "Collatz Research v2.4/BoundedCoefficientRigidity.lean",
+      "source_sha256": "a45ea6bb9fd4ada18906c17ec28d9b8b0d98c0aeb036f41564b86b993e4fae22",
+      "compiled_sha256": "17d70b30e6bfe99a565410c08a62ebd9fbe5acb919989c61a395243207b61d06",
+      "declarations": {
+        "CollatzRunyan.BoundedCoefficientRigidity.coefficient_step": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BoundedCoefficientRigidity.cubic_step_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BoundedCoefficientRigidity.distinct_visit_product": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BoundedCoefficientRigidity.exists_prefix_max": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BoundedCoefficientRigidity.injective_avoids_small": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BoundedCoefficientRigidity.injective_coefficient_unbounded": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BoundedCoefficientRigidity.major_ge_one": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BoundedCoefficientRigidity.major_range": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BoundedCoefficientRigidity.orbit_product_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BoundedCoefficientRigidity.prefix_coefficient_growth": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BoundedCoefficientRigidity.record_square_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "CRFGeometricSpectral",
+      "source": "Collatz Research v2.7/GeometricSpectral/CollatzGeometricSpectralStage1To6.generated.lean",
+      "source_sha256": "04a5a51a967e030f7a6da3eccdfded19c39f93ff8fc02b6db148669dfd02034b",
+      "compiled_sha256": "97f5c25df1959d3d8c6d6f288516f228cf70d7c895ff4c48e8b8fb02338a00a0",
+      "declarations": {
+        "CollatzRunyan.GeometricSpectral.step_double": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.step_odd": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.step_pos": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.orbit_add": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.liftOrbit_formula": [
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.cycle4": [],
+        "CollatzRunyan.GeometricSpectral.cycle4_oddCount": [],
+        "CollatzRunyan.GeometricSpectral.cycle4_twist": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.cycle4_double_return": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.even_cycle_orientation": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.odd_cycle_orientation": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.basin_one": [],
+        "CollatzRunyan.GeometricSpectral.basin_step_iff": [],
+        "CollatzRunyan.GeometricSpectral.basin_orbit_iff": [],
+        "CollatzRunyan.GeometricSpectral.missing_orbit_iff": [],
+        "CollatzRunyan.GeometricSpectral.basin_double_iff": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.missing_double_iff": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.basin_odd_branch_iff": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.missing_pow_two_iff": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.missing_unbounded": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.converges_iff_no_positive_missing": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.shortcut_basin_iff": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.shortcut_orbit_basin_iff": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.parity_add_even": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.shortcut_add_even": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.binary_cylinder_affine": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.binary_cylinder_basin_iff": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.binary_cylinder_lift": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.reflection_fixed_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.mobius_radius_sq_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.symmetricPolynomial_reflect": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.symmetry_not_zero_confinement": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.missingWeight_nonneg": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.positive_missing_series_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.frickeKernel_pos": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.fricke_missing_series_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.fricke_defect_iff_of_identity": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.positive_product_ratio_eq_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.shortcut_odd_nonmultiple_three": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.shortcut_preserves_nonmultiple_three": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.shortcut_orbit_nonmultiple_three": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.cylinder_endpoint_nonmultiple_three": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.nat_progression_of_mod": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.binary_cylinder_lift_of_mod": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.missing_seed_nonmultiple_three": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.gaussianWeight_pos": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.exp_linear_eq_pow": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.gaussian_summable": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.missingWeight_summable": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.basinWeight_summable": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.gaussian_missing_summable": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.gaussian_missing_zero_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.theta_partition": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.theta_equality_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.thetaKernel_pos": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.thetaKernel_summable": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.thetaKernel_missing_summable": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.thetaKernel_missing_identity": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.theta_defect_identity": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.theta_defect_iff_of_jacobi": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.odd_inverse_missing_iff": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.odd_inverse_of_even_mod_three": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.two_even_power_mod_three": [
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.shortcut_zero_iterates": [
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.even_prefix_exact": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.missing_arbitrarily_long_even_prefix": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.odd_inverse_prefix_count": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.missing_arbitrarily_long_odd_prefix": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.shortcut_pos_stage3": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.shortcutOrbit_pos_stage3": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.shortcutOrbit_add_stage3": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.missing_hits_orbit_minimum": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.positive_orbit_minimum_odd": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.five_branch_residue_table": [
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.five_branch_rational_certificates": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.five_branch_lower_sum": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.five_branch_total": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.five_branch_no_two_type_contraction": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.averaged_transfer_no_contraction": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.missingIndicator_double": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.missingIndicator_odd": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.missing_count_identity": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.shortcut_twice_formula": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.shortcut_coefficient_lower": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.shortcut_floor_step": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.shortcut_floor_upper": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.prefix_minimum_power": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.orbit_minimum_power": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.coefficient_no_descent_at": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.coefficient_prefix_no_descent": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_exists": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_gt_one": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.coalescing_basin_iff": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_no_smaller_coalescence": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_orbit_minimum": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_not_two_mod_three": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_three_mod_four": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_mod_twelve": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_excludes_inverse_cylinder": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_not_four_mod_nine": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.multiple_three_preimage_double": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.multiple_three_no_smaller_ancestor": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.universal_smaller_coalescence_implies_converges": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.affine_pair_coalescence": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_excludes_affine_pair": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_excludes_progression": [
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_mod36_stage5": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_mod9_stage5": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_not_16_3": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_not_32_11": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_not_32_23": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.coalescence_64_15": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_not_64_15": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_not_128_7": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_not_128_59": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.coalescence_128_95": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_not_128_95": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_not_256_39": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.coalescence_256_63": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_not_256_63": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_not_256_123": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_not_256_175": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_not_256_199": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_not_256_219": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.stage5_binary_table": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_mod256_stage5": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.least_missing_joint_sieve": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.stage6_coalesces_refl": [],
+        "CollatzRunyan.GeometricSpectral.stage6_coalesces_symm": [],
+        "CollatzRunyan.GeometricSpectral.stage6_coalesces_trans": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.stage6_coalesces_basin_iff": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.stage6_chain_excludes_least": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.stage6_all_odd_shifted": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.stage6_shifted_step_upper": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.stage6_shifted_orbit_upper": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.stage6_all_odd_no_equal_depth_smaller": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.stage6_certificate_valid": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GeometricSpectral.stage6_certificate_excludes": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "CRFLeptonModular",
+      "source": "Collatz Research v2.7/LeptonModular/LeptonModularStage1To9.generated.lean",
+      "source_sha256": "98bd3767cb0ab260f51f015d61d5f9013925d32c18c6981925bec82c089301ba",
+      "compiled_sha256": "4dc095452575dc7d4a3f2a56446f6f806c018e6cb2f4c8a1727acd8fa304b197",
+      "declarations": {
+        "CollatzRunyan.LeptonSpectral.texture_tm1_components": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.trace_product": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.trace_product_square": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.trace_rigidity": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.tm1_linear": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.tm1_modular_quadratic": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.tm1_real_zero": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.tm1_complex_nonzero_first": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.tm1_complex_projective": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.heron_factor": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.ordered_mass_sum_rule": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.spectral_moments_imply_sum": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.sum_rule_atmospheric_identity": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.sum_rule_ratio_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.inverse_sum_rule_ratio_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.arithmetic_coefficients": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.arithmetic_ratio_gt_four": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.arithmetic_ratio_forces_gt_four": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.arithmetic_ratio_excludes_direct_sum_rule": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.bounded_inverse_rule_excluded": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.arithmetic_ratio_excludes_bounded_inverse_rule": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.normalized_tm1_degenerate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.juno_central_ratio_gt_two": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_trace_cycle": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_trace_similarity": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_square_similarity": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_diag_trace": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_diag_square_trace": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_similarity_moments": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_texture_spectral_sum": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_weight4_factor": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_weight4_branches": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_weight4_real_branch_equal": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_weight4_complex_branch": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_texture_components": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_three_singlet_tm1": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_two_singlet_tm1": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_weight8_projective": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_discriminant": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_j_involution_polynomial": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_projective_circle": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_circle_involution": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_rank_one_det": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_rank_one_no_mixing": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_update_trace": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_update_det": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_update_indefinite_det": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_update_not_rank_one": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_opposite_update_eigenvalues": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_orientation_block_square": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_axis_overlap": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_orientation_reactor": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_orientation_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_jarlskog_polynomial": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage2_universal_coupling_obstruction": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_frame_sum": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_projector_square": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_channel_overlap": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_frame_refinement": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_original_overlap": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_refined_overlap": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_whitened_overlap": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_frame_power_step": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_kinetic_canonical": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_stretch_block": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_full_metric_canonical": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_full_mass_congruence": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_raw_compensation": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_channel_trace": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_channel_det": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_channel_indefinite": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_channel_ratio": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_third_relation": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_third_formula": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_fixed_original": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_fixed_refined": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_inverse_geometry": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_equal_strength_no_shift": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_equal_strength_no_rotation": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_positive_strengths": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_positive_geometry": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_squared_geometry": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_parity_gap": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_scale_independent": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_reactor_inverse": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_refined_coupling_ratio": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_equal_dirac_norm": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_heavy_basis_cancel": [
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage3_seesaw_phase": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_tensor_invariants": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_cross_driver_factor": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_tensor_gram_identity": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_vacuum_nonnegative": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_vacuum_zero_set": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_vacuum_components": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_vertical_excluded": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_angular_square": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_angular_minimum": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_joint_constraint": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_driving_charge_obstruction": [
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_distinct_tensor_entries": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_competing_driving_no_solution": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_cross_driver_rigidity": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_one_mediator_char": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_one_mediator_eigenvector": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_one_mediator_matrix_eigenvector": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_resolvent_remainder": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_correlated_coefficient": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_correlated_mass_components": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_metric_char": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_metric_protected_root": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_metric_second_root": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_balanced_pair_char": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_balanced_pair_eigenvector": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_balanced_pair_matrix_kernel": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_balanced_mass_cancel": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_balanced_metric_add": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_balanced_norm": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_balanced_half_active": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_metric_anisotropy_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_metric_active_weight_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_positive_heavy_obstruction": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_mediator_inverse_norm": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage4_protected_vector_nonzero": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_scalar_square_commutes": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_scalar_vacuum_diagonal": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_scalar_refinement": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_scalar_perturbation": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_scalar_geometry_rigidity": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_channel_overlap": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_refined_overlap": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_seesaw_scaling": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_mixing_suppression": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_messenger_diagonal_weights": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_reflection_average": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_heavy_diagonal_ratio": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_direct_mass_asymmetry": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_nonorthogonal_character_rigidity": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_unitary_parity_obstruction": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_cp_offdiagonal": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_cp_seesaw_numerator": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_radiative_offdiagonal": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_radiative_ratio_stationary": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_centered_determinant_expansion": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_centered_matrix_det": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_four_state_kernel": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_schur_mediator_rows": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_rank_one_constraint_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_exact_schur_protection": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_exact_dirac_refined": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_common_mediator_factor": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_common_mediator_constraint": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_five_state_matrix_kernel": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_protected_vector_nonzero": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_five_state_shifted_eigenvector": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_rectangular_kernel_lift": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_rectangular_cross_nonzero": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_rank_nullity_protection": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_general_block_kernel": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_protected_norm": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_protected_weight_sum": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_mediator_angle_relation": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_metric_kernel_transport": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_metric_kernel_transport_nonzero": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage5_zero_block_perturbation": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_affine_compose": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_affine_det": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_affine_gram": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_affine_gram_trace": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_affine_gram_det": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_word_det": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_word_affine": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_word_det_mod67": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_prime67_trace_det_obstruction": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_word_gram_exclusion": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_scaled_target_exclusion": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_localized_trace_exclusion": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_sum_branch_identity": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_sum_power": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_sum_normalized_gram_trace": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_sum_ratio_integer_exclusion": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_sum_ratio_exclusion": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_integer_symmetrization_exclusion": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_target_symmetric_trace": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_target_symmetric_det": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_arithmetic_centered_square": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_target_invariants": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_affine_commutator": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_sterile_perturbation_kernel": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_hybrid_first_eigenvector": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_hybrid_solar_eigenvector": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_hybrid_atmospheric_eigenvector": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_hybrid_root_factor": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_hybrid_sterile_weight": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_distinct_diagonal_commutant": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_projector_commutant_rigidity": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_radiative_ratio_identity": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_graph_minimum_order": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_graph_minimum_counts": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_target_mod_seven_no_root": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_affine_mod3_row_sum": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_affine_mod3_characteristic": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_applyWord_append": [
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_residue_intertwining": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage6_residue_embedding_injective": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_target_circle": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_mod_three_rigidity": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_sum_squares_classification": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_symmetric_integer_classification": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_nonnegative_target_rigidity": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_gram_spectral_circle": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_gram_scale_identity": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_gram_trace_divisibility": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_mod_three_square_zero": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_mod_sixteen_square_eight": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_positive_polynomial_final_obstruction": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_gram_matrix_step": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_gram_closed_step": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_gram_closed_form": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_gram_normalized_trace": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_gram_normalized_det": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_gram_difference": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_exponential_linear_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_gram_tail_positive": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_gram_uniform_difference": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_gram_uniform_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_ensemble_target_exclusion": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_gram_closed_normalization": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_gram_actual_uniform_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_limiting_trace": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_limiting_det": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_limiting_root": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_descent_threshold": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_moment_odd_extension": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_aggregate_gram_det": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_dispersion_pair": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_dispersion_mod_four": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_first_count_unique": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_endpoint_ratio_tail": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_endpoint_decay_certificate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_fixed_count_conditioning": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_branch_probability_norm": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_likelihood_ratio_identity": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_fractional_overlap_square": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_conditioned_numerator_square": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_sqrt_three_irrational": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_mixed_overlap_exclusion": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_projector_invariant_exclusion": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_projector_span_invariants": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_equal_projector_rank_one": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage7_target_overlap_square": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_forward_mean_a": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_forward_mean_b": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_forward_second_a": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_forward_second_ab": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_forward_second_b": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_inverse_mean_r": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_inverse_mean_z": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_inverse_second_r": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_inverse_second_rz": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_inverse_second_z": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_mean_closed": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_forward_closed_step": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_forward_moments_closed": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_inverse_closed_step": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_inverse_moments_closed": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_forward_cov_closed": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_inverse_cov_closed": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_forward_trace": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_inverse_trace": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_forward_cov_det": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_inverse_cov_det": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_forward_int_det": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_inverse_int_det": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_forward_scaled_components": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_inverse_scaled_components": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_forward_power_scale": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_inverse_power_scale": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_forward_det_scale": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_inverse_det_scale": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_forward_residue_power": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_inverse_residue_power": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_forward_det_mod25": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_inverse_det_mod9": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_forward_square_certificate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_inverse_square_certificate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_forward_det_nonsquare": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_inverse_det_nonsquare": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_forward_target_certificate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_inverse_target_certificate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_forward_target_exclusion": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_inverse_target_exclusion": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_forward_integer_cov_exclusion": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_inverse_integer_cov_exclusion": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_correction_branch_pos": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_correction_branch_sum": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_correction_word_invariant": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_normalized_even": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_normalized_odd": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_shifted_perpetuity_even": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_shifted_perpetuity_odd": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_branch_moment_zero": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_branch_moment_one": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_branch_moment_two": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_fractional_duality": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_fractional_duality_square": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_affine_residue_certificate": [],
+        "CollatzRunyan.LeptonSpectral.stage8_forward_limit_invariants": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_inverse_limit_invariants": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_inverse_limit_roots": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage8_congruence_det": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_step_even": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_step_odd": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_step_pos": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_step_one": [],
+        "CollatzRunyan.LeptonSpectral.stage9_step_two": [],
+        "CollatzRunyan.LeptonSpectral.stage9_orbit_pos": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_orbit_add": [
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_basin_step": [],
+        "CollatzRunyan.LeptonSpectral.stage9_basin_orbit": [],
+        "CollatzRunyan.LeptonSpectral.stage9_basin_one": [],
+        "CollatzRunyan.LeptonSpectral.stage9_fixed_orbit": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_fixed_on_basin": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_indicator_fixed": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_indicator_bounds": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_indicator_zero": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_fixed_unique_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_weight_partition": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_basin_weight_bounds": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_missing_weight_bounds": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_basin_summable": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_missing_summable": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_tsum_partition": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_defect_zero_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_basin_mass_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_zeta_two_zero": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_zeta_two_positive": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_zeta_two_hasSum": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_zeta_two_total": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_basel_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_basel_gap": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_basin_double": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_basin_power_two": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_one_step_sum": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_parity_shift": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_step_shift": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_cylinder_affine": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_cylinder_basin": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_cylinder_kernel": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_step_affine": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_orbit_affine": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_orbit_divisibility": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_orbit_affine_int": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_inverse_residue": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_normalized_residue": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_cycle_balance": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_mellin_first_residue": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LeptonSpectral.stage9_mellin_second_residue": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "CoalescentCoefficientRigidity",
+      "source": "Collatz Research v2.5/CoalescentCoefficientRigidity.lean",
+      "source_sha256": "ed89c922aa28a0599fb1e4431452b3057a0275744ca2f4876bc22214cb336264",
+      "compiled_sha256": "03d7d5f197e2a8223194cfd8dba2b9d1681ee19b3429e056d21bdbe8dc8adc50",
+      "declarations": {
+        "CollatzRunyan.CoalescentCoefficientRigidity.coefficient_step": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoalescentCoefficientRigidity.compress_injective": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoalescentCoefficientRigidity.distinct_visit_product": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoalescentCoefficientRigidity.exists_prefix_max": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoalescentCoefficientRigidity.injective_avoids_small": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoalescentCoefficientRigidity.major_ge_one": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoalescentCoefficientRigidity.odd_rank_bounds": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoalescentCoefficientRigidity.odd_rank_injective": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoalescentCoefficientRigidity.orbit_product_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoalescentCoefficientRigidity.orbit_three_free": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoalescentCoefficientRigidity.prefix_coefficient_growth": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoalescentCoefficientRigidity.rank_major_ge_one": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoalescentCoefficientRigidity.rank_major_range": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoalescentCoefficientRigidity.ranked_ten_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoalescentCoefficientRigidity.record_ninth_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoalescentCoefficientRigidity.representative_bounds": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoalescentCoefficientRigidity.representative_collision": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoalescentCoefficientRigidity.representative_rank_allowed": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoalescentCoefficientRigidity.representative_visit_injective": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoalescentCoefficientRigidity.shortcut_three_free": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoalescentCoefficientRigidity.sibling_exclusion": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoalescentCoefficientRigidity.sibling_steps": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoalescentCoefficientRigidity.tenth_correction": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoalescentCoefficientRigidity.tenth_step_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoalescentCoefficientRigidity.visit_rank_bounds": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoalescentCoefficientRigidity.visit_rank_injective": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "CollatzRunyan.Arithmetic",
+      "source": "Lean Proofs/CollatzRunyan/Arithmetic.lean",
+      "source_sha256": "ea9ae04c07adc7c2e2a31d1ac023799c9bc9a72d8851cc1a40f38b355ef46c0b",
+      "compiled_sha256": "256ea30e22400d4bfcc71120918080de18ee782c62baa9e1fda1a79d99f94b56",
+      "declarations": {
+        "CollatzRunyan.affine_commutator": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.descent_certificate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.f0_left_inverse": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.f0_right_inverse": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.f1_left_inverse": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.f1_right_inverse": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.pell_137": [
+          "propext"
+        ],
+        "CollatzRunyan.pell_thirtyseven": [
+          "propext"
+        ],
+        "CollatzRunyan.pell_three": [
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "CollatzRunyan.BranchAlgebra",
+      "source": "Lean Proofs/CollatzRunyan/BranchAlgebra.lean",
+      "source_sha256": "4d4c50acfeeb6fb7912f8947ea00f98e33836dbf1b52cc33621624788e28587d",
+      "compiled_sha256": "82fefd308be47950bddccce1683ea089bd82ef9a19cf01c5433cd75149620488",
+      "declarations": {
+        "CollatzRunyan.matrix_unit_mul": [
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "CollatzRunyan.Intersection",
+      "source": "Lean Proofs/CollatzRunyan/Intersection.lean",
+      "source_sha256": "98872929eea9bb43cf763e86245965b1b34c7cddc47dfa2c275ed2675815b01f",
+      "compiled_sha256": "9d7f9cc31fee323a3ff6e3b17841d6659ec81d9aa2d27078ce786563a945adfd",
+      "declarations": {
+        "CollatzRunyan.admissible_entry_zero": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.no_complement": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.supported_pairing_zero": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "CollatzRunyan.Lorentzian",
+      "source": "Lean Proofs/CollatzRunyan/Lorentzian.lean",
+      "source_sha256": "da7f8e2d3c08c5e7ecdb97ea6cfca3e2347e2bb61041fdea8c8ef7b2014b7e65",
+      "compiled_sha256": "6ffc3618d3e43740b67d9beb3b82267e74feb7fc126897de1ed22d4e5fc66e3a",
+      "declarations": {
+        "CollatzRunyan.boost_invariant": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.hermitian_determinant_formula": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.lorentzian_polynomial": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "CongruencePropagation",
+      "source": "Collatz Research v2.4/CongruencePropagation.lean",
+      "source_sha256": "3f2f5032a121036f0339c648eb4a1c2cb84df8c4c4df851a5e2434998917ab4b",
+      "compiled_sha256": "e7ac282dbe72858740fb7239a6d5ee7c0fbdbebf26adffb3669a0a4b055eb9da",
+      "declarations": {
+        "CollatzRunyan.CongruencePropagation.backward_defect": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CongruencePropagation.bounded_shadow_exclusion": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CongruencePropagation.forward_defect": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CongruencePropagation.nonintegral_shadow_lower": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CongruencePropagation.rational_core_example": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CongruencePropagation.rational_shadow": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CongruencePropagation.shadow_uniqueness": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CongruencePropagation.simultaneous_shadow": [
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "CoupledRunRigidity",
+      "source": "Collatz Research v2.4/CoupledRunRigidity.lean",
+      "source_sha256": "3e5f1ce20b22cbcbb6c0cd17ae84512cd0d67fdbf96404cafaff6394c795d2b9",
+      "compiled_sha256": "d66861d2ce5ad78ed0d50d408d6dbcc5bb57a3b29ea578fa638df73653dea525",
+      "declarations": {
+        "CollatzRunyan.CoupledRunRigidity.backward_threshold": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoupledRunRigidity.bounded_stabilization": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoupledRunRigidity.chain_affine": [
+          "propext"
+        ],
+        "CollatzRunyan.CoupledRunRigidity.closed_denominator": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoupledRunRigidity.coupled_example": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoupledRunRigidity.forward_threshold": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoupledRunRigidity.residue_rounding": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoupledRunRigidity.stable_chain": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CoupledRunRigidity.stable_edge": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "CriticalParityRigidity",
+      "source": "Collatz Research v2.4/CriticalParityRigidity.lean",
+      "source_sha256": "25ecce6095663f2c5056abe42e21841d8acd4afb59135d9b27e2265352141331",
+      "compiled_sha256": "6eda9b2b731f570f15975156a234d80d1deefd806d8af7091de4fc42e2aaede8",
+      "declarations": {
+        "CollatzRunyan.CriticalParityRigidity.critical_actual_affine": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CriticalParityRigidity.critical_affine_bounds": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CriticalParityRigidity.critical_count_lower": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CriticalParityRigidity.critical_distinct_prefix_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CriticalParityRigidity.critical_even_lower": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CriticalParityRigidity.critical_increment": [
+          "propext"
+        ],
+        "CollatzRunyan.CriticalParityRigidity.critical_offset_bounds": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CriticalParityRigidity.critical_three_steps": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CriticalParityRigidity.critical_two_steps": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CriticalParityRigidity.critical_window": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "CycleBoundConflict",
+      "source": "Collatz Research v2.4/CycleBoundConflict.lean",
+      "source_sha256": "90bfe9f347f3b5c6bfd938e07f31d1c8866efa44051c6458ebc43f7e8304387a",
+      "compiled_sha256": "cf78c31415baf24fef1fcf10cca74ca6f90ec1163691a5721ab7c975bef757e3",
+      "declarations": {
+        "CollatzRunyan.CycleBoundConflict.block_numerator_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleBoundConflict.block_numerator_relaxed": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleBoundConflict.cycle_square_cap": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleBoundConflict.divisor_product_lower": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleBoundConflict.full_split_square": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleBoundConflict.separation_conflict": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleBoundConflict.split_product_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleBoundConflict.two_pow_le_three_pow": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "CycleCoreRigidity",
+      "source": "Collatz Research v2.3/CycleCoreRigidity.lean",
+      "source_sha256": "e1775fe02974840a6e06846f3e4ad858303572c0ef44640e115dcc781d94f4f8",
+      "compiled_sha256": "e39bcd9927fb0f3d96ecaa8a4ce6874d0aa74f1bfe73de94732c5255f9dca3ea",
+      "declarations": {
+        "CollatzRunyan.CycleCoreRigidity.core_divisibility_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleCoreRigidity.core_mod_power": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleCoreRigidity.powers_coprime": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleCoreRigidity.shadow_not_cycle": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleCoreRigidity.shadow_param_nonneg": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleCoreRigidity.shadow_param_pow": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleCoreRigidity.shadow_steps": [
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "CycleExclusionResearch",
+      "source": "Collatz Research v2.3/CycleExclusionResearch.lean",
+      "source_sha256": "6746e649a85820b371ed171592077b20ee10e8b343d90d17b91442e53bdf4467",
+      "compiled_sha256": "b64b20731d8d516b59c838d8d152adadd4dbab8ebe025e05ac43f78445e8dc0b",
+      "declarations": {
+        "CollatzRunyan.CycleExclusionResearch.cycle_min_odd": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleExclusionResearch.cycle_run_count_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleExclusionResearch.grid_at_least_six": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleExclusionResearch.grid_identity": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleExclusionResearch.odd_run_shift": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleExclusionResearch.odd_step_telescope": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleExclusionResearch.run_endpoint_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleExclusionResearch.twice_shortcut_odd": [
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "CycleMinimaResearch",
+      "source": "Collatz Research v2.3/CycleMinimaResearch.lean",
+      "source_sha256": "a38dada2758343513146a4bb3c71b5da836542dd1582f446e30521de74eb5d8e",
+      "compiled_sha256": "9ad903a5cfa81f9d21197270125512c43618b1f7964cf13c0c55c8bcb415eb74",
+      "declarations": {
+        "CollatzRunyan.CycleMinimaResearch.even_run_scale": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleMinimaResearch.local_minimum_growth": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleMinimaResearch.local_minimum_transition": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleMinimaResearch.minima_chain_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleMinimaResearch.next_minimum_not_multiple_three": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleMinimaResearch.odd_run_core": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleMinimaResearch.odd_run_shift": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleMinimaResearch.orbit_add": [
+          "propext"
+        ],
+        "CollatzRunyan.CycleMinimaResearch.power_ratio_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleMinimaResearch.twice_shortcut_even": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CycleMinimaResearch.twice_shortcut_odd": [
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "DenominatorRigidity",
+      "source": "Collatz Research v2.4/DenominatorRigidity.lean",
+      "source_sha256": "9450ecc457f9d62015912653de1744e96692fd7718fdd04ff077051e04419b0b",
+      "compiled_sha256": "e7fad70fca9a5be56308edd8b2fe24cb3fbd736563f7f5ad9cdfbe5a7c32376f",
+      "declarations": {
+        "CollatzRunyan.DenominatorRigidity.adjacent_swap_forces_unit": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.DenominatorRigidity.contextual_swap_gap": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.DenominatorRigidity.coprime_gap_certificate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.DenominatorRigidity.difference_coprime": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.DenominatorRigidity.middle_swap_gap": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.DenominatorRigidity.rotation_divisibility_iff": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.DenominatorRigidity.two_position_obstruction": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "DescentResearch",
+      "source": "Collatz Research v2.3/DescentResearch.lean",
+      "source_sha256": "55bde66d871270cd61b0201c1fcec9668e059ddd89b1da603404f0cb33c3b91a",
+      "compiled_sha256": "459f88ccb28af251ac58c846c21f65d0a85e59434133658c9ff507b4a5b4fa55",
+      "declarations": {
+        "CollatzRunyan.Descent.affine_trajectory": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.Descent.affine_trajectory_pow": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.Descent.certificate_iff_convergence": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.Descent.certificate_iff_descent": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.Descent.coeffA_eq_pow": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.Descent.convergence_implies_descent": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.Descent.descent_iff_certificate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.Descent.descent_iff_convergence": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.Descent.descent_implies_convergence": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.Descent.even_descends": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.Descent.factor_eq_pow": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.Descent.four_add_one_descends": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.Descent.nonconvergence_implies_nondescending": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.Descent.orbit_add": [
+          "propext"
+        ],
+        "CollatzRunyan.Descent.orbit_pos": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.Descent.orbit_two_four_add_one": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.Descent.shortcut_four_add_one": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.Descent.shortcut_pos": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.Descent.step_affine": [
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "DiophantineGap",
+      "source": "Collatz Research v2.3/DiophantineGap.lean",
+      "source_sha256": "4015be2df522884e650ab981ce55f24593f4d72bb0ca8dde80e93feecce23737",
+      "compiled_sha256": "ebc69fb5dd862047783121d5fcd83151ca46f448721e2842531268eec7df8fcf",
+      "declarations": {
+        "CollatzRunyan.DiophantineGap.affine_prefix": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.DiophantineGap.fifty_billion_cap": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.DiophantineGap.first_crossing_gap": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.DiophantineGap.fixed_grid_nonzero": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.DiophantineGap.gap_descent": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.DiophantineGap.offset_linear_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.DiophantineGap.rational_grid": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.DiophantineGap.twice_shortcut_even": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.DiophantineGap.twice_shortcut_odd": [
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "ExceptionalGapRigidity",
+      "source": "Collatz Research v2.4/ExceptionalGapRigidity.lean",
+      "source_sha256": "a8dac86c8d6879eebc214852a8200d9e7bbee4b1b46122f19a62ec27b167ccf8",
+      "compiled_sha256": "61bfdff05679fb2a236c6423f266a330ee5a2f6790d846ac5365edd1ec355623",
+      "declarations": {
+        "CollatzRunyan.ExceptionalGapRigidity.bounded_weight_exclusion": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ExceptionalGapRigidity.closing_weight": [
+          "propext"
+        ],
+        "CollatzRunyan.ExceptionalGapRigidity.ordinary_weight": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ExceptionalGapRigidity.positive_small_not_dvd": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ExceptionalGapRigidity.three_unit_gap_example": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ExceptionalGapRigidity.unit_gap_weight": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ExceptionalGapRigidity.weight_sum_bounds": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ExceptionalGapRigidity.weighted_chain": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ExceptionalGapRigidity.weighted_cycle": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "FamilyCoalescenceRigidity",
+      "source": "Collatz Research v2.5/FamilyCoalescenceRigidity.lean",
+      "source_sha256": "144e6bc6bc6d5305b4fdc3f383bf50f20b6bce21e4a92ae148fd9fa12d228c9b",
+      "compiled_sha256": "c16b13137b5bd5e3caffb26960684c09f28be879b1ec51cdcbe69d9062aa31e1",
+      "declarations": {
+        "CollatzRunyan.FamilyCoalescenceRigidity.allowed_residue_card": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoalescenceRigidity.eligible_representative": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoalescenceRigidity.family_comparable": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoalescenceRigidity.family_merge": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoalescenceRigidity.family_minimum": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoalescenceRigidity.family_penultimate": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoalescenceRigidity.family_refl": [
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoalescenceRigidity.family_step": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoalescenceRigidity.family_trans": [
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoalescenceRigidity.family_visit_unique": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoalescenceRigidity.orbit_add": [
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoalescenceRigidity.orbit_pow_two": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoalescenceRigidity.orbit_shift": [
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoalescenceRigidity.proper_family_exclusion": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoalescenceRigidity.removed_first": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoalescenceRigidity.removed_second": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoalescenceRigidity.representative_residue": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoalescenceRigidity.shared_family_visit_unique": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoalescenceRigidity.shortcut_even": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoalescenceRigidity.shortcut_odd": [
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "FamilyCorrectionProduct",
+      "source": "Collatz Research v2.5/FamilyCorrectionProduct.lean",
+      "source_sha256": "948a96fbd5eb4989bc500e48505e602365e546fb0fe105c91d824b7ed101d33d",
+      "compiled_sha256": "92a246cb7d8db90383a4c9c675e8e41bc7a4b69f091d25c4a927d28be5a7ed76",
+      "declarations": {
+        "CollatzRunyan.FamilyCorrectionProduct.allowed_residue_card": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCorrectionProduct.block_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCorrectionProduct.block_ge_one": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCorrectionProduct.block_power_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCorrectionProduct.complete_blocks_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCorrectionProduct.correction_block_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCorrectionProduct.correction_ge_one": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCorrectionProduct.family_product_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCorrectionProduct.first_block_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCorrectionProduct.interval_certificate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCorrectionProduct.large_prefix_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCorrectionProduct.positive_block": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCorrectionProduct.prefix_add": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCorrectionProduct.prefix_ge_one": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCorrectionProduct.prefix_mono": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCorrectionProduct.small_prefix_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCorrectionProduct.symmetric_power": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCorrectionProduct.uniform_ge_one": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCorrectionProduct.uniform_power_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCorrectionProduct.weight_ge_one": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "ForcedZeroSum",
+      "source": "Collatz Research v2.4/ForcedZeroSum.lean",
+      "source_sha256": "3a761c677656e9bc0b6886047b95147393ff0b628d019d7000fa6764f970c5e6",
+      "compiled_sha256": "48bba81bf361e1f80964c444a983a697451ed8b360883ff3fe5d2c2cec7f421b",
+      "declarations": {
+        "CollatzRunyan.ForcedZeroSum.common_divisor_square": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ForcedZeroSum.large_modulus_exclusion": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ForcedZeroSum.no_collision_cardinality": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ForcedZeroSum.nontrivial_cycle_divisor_cap": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ForcedZeroSum.positive_divisor_le": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ForcedZeroSum.prefix_collision_forced": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ForcedZeroSum.proper_divisor_counterexample": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ForcedZeroSum.rational_two_gap_return": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "GlobalParityResearch",
+      "source": "Collatz Research v2.3/GlobalParityResearch.lean",
+      "source_sha256": "135e967cb1430aa0748f5c9aca7f7fbb0d93ebc755bdd1c6333e686738839818",
+      "compiled_sha256": "c1b09a43d587b2a2248a85e2e2cc4797bc46a5e746f4c26b13ad46e82587a366",
+      "declarations": {
+        "CollatzRunyan.GlobalParity.orbit_growth": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GlobalParity.prefix_affine_difference": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GlobalParity.prefix_collision_of_small_difference": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GlobalParity.prefix_difference_dvd": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GlobalParity.shortcut_growth": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GlobalParity.shortcut_nonneg": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GlobalParity.two_mul_shortcut_even": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GlobalParity.two_mul_shortcut_odd": [
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "GlobalRunRigidity",
+      "source": "Collatz Research v2.4/GlobalRunRigidity.lean",
+      "source_sha256": "2bd48840ffa16697f05edadc940fc9eb232b719fed7020ca38665ad9fc38be9c",
+      "compiled_sha256": "c9ae716a268a988fb1c90bf02c8702ab60400f566a4a95765ec07e64450a8e0d",
+      "declarations": {
+        "CollatzRunyan.GlobalRunRigidity.core_lower": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GlobalRunRigidity.global_envelope": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GlobalRunRigidity.incoming_residue": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GlobalRunRigidity.runProduct_mono": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GlobalRunRigidity.runProduct_mul": [
+          "propext"
+        ],
+        "CollatzRunyan.GlobalRunRigidity.runProduct_nonneg": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GlobalRunRigidity.run_ratio_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GlobalRunRigidity.run_ratio_identity": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.GlobalRunRigidity.strict_refinement_example": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "IntegralityRigidity",
+      "source": "Collatz Research v2.4/IntegralityRigidity.lean",
+      "source_sha256": "f7ee562ae78e822682aa373b69c0c769658aff06b988f4a243469055e9d298a3",
+      "compiled_sha256": "fc73c2a60c14a9e89d686663918258f840d44b75d8cc1e712f50f4fdb026a726",
+      "declarations": {
+        "CollatzRunyan.IntegralityRigidity.coprime_joint_residue": [
+          "propext"
+        ],
+        "CollatzRunyan.IntegralityRigidity.incoming_residue": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.IntegralityRigidity.interval_exclusion": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.IntegralityRigidity.joint_only_example": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.IntegralityRigidity.joint_product_exclusion": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.IntegralityRigidity.least_representative_lower": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.IntegralityRigidity.nonneg_power_mono": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.IntegralityRigidity.outgoing_residue": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.IntegralityRigidity.product_bound_at_lower": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.IntegralityRigidity.two_sided_residue": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "LocalDivisorRigidity",
+      "source": "Collatz Research v2.4/LocalDivisorRigidity.lean",
+      "source_sha256": "83e75281a5b4cd8bfb131408611c742cb20f6859bf398f69e8eae5d295645874",
+      "compiled_sha256": "e5cbc676c48be4b599ffe51d6e207b4ce4d1a94ef178310a67939dd6b5509b41",
+      "declarations": {
+        "CollatzRunyan.LocalDivisorRigidity.adjacent_core_lower": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LocalDivisorRigidity.adjacent_core_residue": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LocalDivisorRigidity.coprime_joint_residue": [
+          "propext"
+        ],
+        "CollatzRunyan.LocalDivisorRigidity.incoming_residue": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LocalDivisorRigidity.joint_only_example": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LocalDivisorRigidity.least_representative_lower": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LocalDivisorRigidity.local_offset_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LocalDivisorRigidity.outgoing_residue": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "LogarithmicDeficitRigidity",
+      "source": "Collatz Research v2.4/LogarithmicDeficitRigidity.lean",
+      "source_sha256": "ad90e7434d4abab2e882d3dd5b340e00740956fd7edc52f66ca0df5dc3e3a41d",
+      "compiled_sha256": "ef41839d21492b370bf140adab5474aa185e420cc1231d3cb083670892c698cd",
+      "declarations": {
+        "CollatzRunyan.LogarithmicDeficitRigidity.correction_nine_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LogarithmicDeficitRigidity.correction_nine_identity": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LogarithmicDeficitRigidity.distinct_visit_descent": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LogarithmicDeficitRigidity.even_index_rank": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LogarithmicDeficitRigidity.nondescending_coefficient_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LogarithmicDeficitRigidity.odd_spacing": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LogarithmicDeficitRigidity.ranked_nine_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LogarithmicDeficitRigidity.ranked_product_envelope": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LogarithmicDeficitRigidity.sorted_rank": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LogarithmicDeficitRigidity.sorted_visit_descent": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LogarithmicDeficitRigidity.three_free_spacing": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LogarithmicDeficitRigidity.visitProduct_pos": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.LogarithmicDeficitRigidity.visitProduct_pow": [
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "ModularWeightRigidity",
+      "source": "Collatz Research v2.4/ModularWeightRigidity.lean",
+      "source_sha256": "272b8883337d974e597777e3ab352f92ce43b9aa85cfb9453321421d631f8361",
+      "compiled_sha256": "6902ded3e816e84cfa91fe9b5403c58a6664fb34dfbc6732df122eeba8549cd2",
+      "declarations": {
+        "CollatzRunyan.ModularWeightRigidity.counterexample_excluded": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ModularWeightRigidity.minimization_counterexample": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ModularWeightRigidity.odd_signed_count_exclusion": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ModularWeightRigidity.opposite_pair_cancel": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ModularWeightRigidity.opposite_pair_lower_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ModularWeightRigidity.positive_small_not_dvd": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ModularWeightRigidity.residue_dvd_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ModularWeightRigidity.signed_count_exclusion": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ModularWeightRigidity.signed_count_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ModularWeightRigidity.small_residual_exclusion": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ModularWeightRigidity.zero_block_sum": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "ParityComplexity",
+      "source": "Collatz Research v2.3/ParityComplexity.lean",
+      "source_sha256": "b86b92169f3d444eaa3b2c8edcdb42f817a57f7a2b1353135e90ee6147aebf28",
+      "compiled_sha256": "5a9b113a01e9320cb0c5b8c034ae4b49f66004eefd85ef103a4ed602ce5df624",
+      "declarations": {
+        "CollatzRunyan.ParityComplexity.code_collision_in_interval": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ParityComplexity.code_difference_dvd": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ParityComplexity.code_eq_implies_prefix": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ParityComplexity.finite_code_card": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ParityComplexity.finite_orbit_complexity": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ParityComplexity.prefix_affine_difference": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ParityComplexity.prefix_collision_of_small_difference": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ParityComplexity.prefix_difference_dvd": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ParityComplexity.two_mul_shortcut_even": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ParityComplexity.two_mul_shortcut_odd": [
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "ParityEntropy",
+      "source": "Collatz Research v2.3/ParityEntropy.lean",
+      "source_sha256": "b129ee4428c1e645ae2b6ff22decaa1644524ed9e2dce9392366ba03f46b1766",
+      "compiled_sha256": "a8f13a3cbb05be551075bc830d8d82b070c44675a976f56efc99b5f8ce3c229e",
+      "declarations": {
+        "CollatzRunyan.ParityEntropy.nondescending_odd_count": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ParityEntropy.odd_cube_strict": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ParityEntropy.step_cube_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ParityEntropy.twice_shortcut_even": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ParityEntropy.twice_shortcut_odd": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ParityEntropy.weighted_growth": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "ParityRigidity",
+      "source": "Collatz Research v2.3/ParityRigidity.lean",
+      "source_sha256": "0b0ef7a3934f22651313edd3d77b619e36d703392deda438c290d855d0a20751",
+      "compiled_sha256": "cdec333c4f43adfd524226c5669b6cca3883efb65327d411093e4bd0f20cfde0",
+      "declarations": {
+        "CollatzRunyan.ParityRigidity.affine_repeat_dvd": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ParityRigidity.affine_telescoping": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ParityRigidity.parity_repeat_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ParityRigidity.parity_repeat_dvd": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ParityRigidity.two_three_coprime": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ParityRigidity.zero_discriminant_return": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "PrimePowerCorrections",
+      "source": "Collatz Research v2.4/PrimePowerCorrections.lean",
+      "source_sha256": "cad6b148bc0f8a9ec70aef375a2233d85c7c5c68aa580ca9b2093a4f7bfc5ebe",
+      "compiled_sha256": "cec35269066d5e6962734eb141d8164845499b21824db7d5d2166306ec36a8be",
+      "declarations": {
+        "CollatzRunyan.PrimePowerCorrections.correction_chain": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.PrimePowerCorrections.cycle_weighted_balance": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.PrimePowerCorrections.exception_multiplier": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.PrimePowerCorrections.higher_power_two_exception_example": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.PrimePowerCorrections.ordinary_segment": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.PrimePowerCorrections.two_exception_count": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.PrimePowerCorrections.two_exception_segments": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "PrimePowerRigidity",
+      "source": "Collatz Research v2.4/PrimePowerRigidity.lean",
+      "source_sha256": "e4cdf732109e7d873f4afa59946d76a224ded8596156af41133a2c4d04a25cbb",
+      "compiled_sha256": "5d78c697643fa43ec7d0a25ed26872d43c971123a40b0c1ede3d3ec2eb4c8ac9",
+      "declarations": {
+        "CollatzRunyan.PrimePowerRigidity.affine_count_iff": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.PrimePowerRigidity.affine_defect_chain": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.PrimePowerRigidity.affine_defect_step": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.PrimePowerRigidity.chain_defect": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.PrimePowerRigidity.cycle_count_divisible": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.PrimePowerRigidity.higher_power_example": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.PrimePowerRigidity.prime_power_gap_obstruction": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.PrimePowerRigidity.step_defect": [
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "SparseCoefficientRigidity",
+      "source": "Collatz Research v2.5/SparseCoefficientRigidity.lean",
+      "source_sha256": "2ec2e751a1f85eeb1c218ef8449e9690ed4be9091cc768568afd8b38f74b35d5",
+      "compiled_sha256": "ab1cc97ab93f40c050ca2f306cd62b80a2be938896fccb42ba76c3e012896f07",
+      "declarations": {
+        "CollatzRunyan.SparseCoefficientRigidity.coefficient_step": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.SparseCoefficientRigidity.distinct_visit_product": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.SparseCoefficientRigidity.exists_prefix_max": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.SparseCoefficientRigidity.injective_avoids_small": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.SparseCoefficientRigidity.major_ge_one": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.SparseCoefficientRigidity.ninth_step_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.SparseCoefficientRigidity.odd_rank_bounds": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.SparseCoefficientRigidity.odd_rank_injective": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.SparseCoefficientRigidity.orbit_product_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.SparseCoefficientRigidity.orbit_three_free": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.SparseCoefficientRigidity.prefix_coefficient_growth": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.SparseCoefficientRigidity.rank_major_ge_one": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.SparseCoefficientRigidity.rank_major_range": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.SparseCoefficientRigidity.ranked_nine_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.SparseCoefficientRigidity.record_eighth_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.SparseCoefficientRigidity.shortcut_three_free": [
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "StabilizedCoreRigidity",
+      "source": "Collatz Research v2.4/StabilizedCoreRigidity.lean",
+      "source_sha256": "3356a3fd3765e691c75d8263a64ff64c25d17fdc4097a1755726facfb343549f",
+      "compiled_sha256": "c0c411362b3bc337f0f5729669f648b1a121669d43a05650dfb2bf47c6440803",
+      "declarations": {
+        "CollatzRunyan.StabilizedCoreRigidity.all_cores_dvd": [
+          "propext"
+        ],
+        "CollatzRunyan.StabilizedCoreRigidity.chain_defect_dvd": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.StabilizedCoreRigidity.closed_seed_dvd": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.StabilizedCoreRigidity.common_divisor_example": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.StabilizedCoreRigidity.core_lower": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.StabilizedCoreRigidity.offset_from_cores": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.StabilizedCoreRigidity.reduced_divisor": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.StabilizedCoreRigidity.transfer_divisor": [
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "StoppingTimeBounds",
+      "source": "Collatz Research v2.3/StoppingTimeBounds.lean",
+      "source_sha256": "9a4a2d29d612be2b982cb037bfe83346c77f9aa4c4f6b7581d1b8bb9b04afa78",
+      "compiled_sha256": "bf6530792b0385e76dd0fc2337d1d7c4ce25e66d4c5829d5386c05d6bbac081e",
+      "declarations": {
+        "CollatzRunyan.StoppingTimeBounds.affine_gap_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.StoppingTimeBounds.crossing_depth_lower_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.StoppingTimeBounds.grid_cap": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.StoppingTimeBounds.grid_exclusion": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.StoppingTimeBounds.grid_identity": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.StoppingTimeBounds.odd_count_cap": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "SurvivingResidueTree",
+      "source": "Collatz Research v2.3/SurvivingResidueTree.lean",
+      "source_sha256": "9a57c742377f4dbb597494c561496707d79f63b639c1f71406e2ef6ea57384bb",
+      "compiled_sha256": "6d804fed28ece55d0343305875855efcb477132164d2c3ad8843023ce4352b7d",
+      "declarations": {
+        "CollatzRunyan.SurvivingResidueTree.affine_nondescending_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.SurvivingResidueTree.affine_prefix": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.SurvivingResidueTree.first_crossing_descent": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.SurvivingResidueTree.first_crossing_exception": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.SurvivingResidueTree.odd_position_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.SurvivingResidueTree.odd_weight_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.SurvivingResidueTree.offset_le_envelope": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.SurvivingResidueTree.twice_shortcut_even": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.SurvivingResidueTree.twice_shortcut_odd": [
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "UniversalDescentRigidity",
+      "source": "Collatz Research v2.4/UniversalDescentRigidity.lean",
+      "source_sha256": "04485abc1a27db6ac851b7adaa28a4513e89ba31d9f22696e92c33d98b747b8c",
+      "compiled_sha256": "d205a1d0941b5b31d1bc3c12870739ce16fefd2afa5ed196e2b4623fb767e341",
+      "declarations": {
+        "CollatzRunyan.UniversalDescentRigidity.correction_six_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.UniversalDescentRigidity.correction_six_identity": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.UniversalDescentRigidity.distinct_visit_descent": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.UniversalDescentRigidity.nondescending_coefficient_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.UniversalDescentRigidity.ranked_correction_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.UniversalDescentRigidity.ranked_product_envelope": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.UniversalDescentRigidity.visitProduct_pos": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.UniversalDescentRigidity.visitProduct_pow": [
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "UniversalStoppingResearch",
+      "source": "Collatz Research v2.3/UniversalStoppingResearch.lean",
+      "source_sha256": "3a26c51fb531ac9db237c8854f98881a9e17e35690de38e8a4d8fccb744a9134",
+      "compiled_sha256": "92325d83339ed9f36a666ffb939073a1939b45018ae2cfb3a3fcb909a14d1142",
+      "declarations": {
+        "CollatzRunyan.UniversalStoppingResearch.finite_record_obstruction": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.UniversalStoppingResearch.no_infinite_record_family": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.UniversalStoppingResearch.positive_record_count": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.UniversalStoppingResearch.record_max_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "ZeroSumRigidity",
+      "source": "Collatz Research v2.4/ZeroSumRigidity.lean",
+      "source_sha256": "32f516fbe90b62fedac8c998aa9b1e1a9ccc95389a070c1ec9024ebf4b67117e",
+      "compiled_sha256": "e9373cc597b8346592e9a004728b0480c98338a5abc0dbc6b23831f122d44f79",
+      "declarations": {
+        "CollatzRunyan.ZeroSumRigidity.affine_split": [
+          "propext"
+        ],
+        "CollatzRunyan.ZeroSumRigidity.block_zero_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ZeroSumRigidity.complementary_blocks": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ZeroSumRigidity.full_denominator_lower": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ZeroSumRigidity.positive_multiple_lower": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ZeroSumRigidity.proper_zero_segment_example": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ZeroSumRigidity.small_cycle_no_zero_split": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ZeroSumRigidity.zero_split_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "BinaryDynamicalCompatibility",
+      "source": "Collatz Research v2.6/BinaryDynamicalCompatibility.lean",
+      "source_sha256": "8db89c94f5186c4a8e60a86b2a93516b65b8e1d44f5b8806ca1e53e0eee1e6d2",
+      "compiled_sha256": "e132bd7296256ef8bef31f5254afcad64887af9620497d1648b561a590d64bc2",
+      "declarations": {
+        "CollatzRunyan.BinaryDynamicalCompatibility.antisymmetric_eigenvalue": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryDynamicalCompatibility.fixed_locus_preserved": [
+          "propext"
+        ],
+        "CollatzRunyan.BinaryDynamicalCompatibility.squareMap_conjugate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryDynamicalCompatibility.squareMap_not_minus": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryDynamicalCompatibility.squareMap_not_plus": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryDynamicalCompatibility.symmetricMap_conjugate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryDynamicalCompatibility.symmetricMap_minus": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryDynamicalCompatibility.symmetricMap_plus": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryDynamicalCompatibility.symmetric_eigenvalue": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "ConjugateCoefficientRigidity",
+      "source": "Collatz Research v2.6/ConjugateCoefficientRigidity.lean",
+      "source_sha256": "14247c7e7b0386a9e9a60af5fc9ae422978fccb5e3023dc018131f09411bfd03",
+      "compiled_sha256": "ea8fcdd74249f8efe1dc1b9fa7af06b2141f77131415354bd16e32b6c90908bb",
+      "declarations": {
+        "CollatzRunyan.BinaryConjugation.affine_conjugate_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryConjugation.affine_correction": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryConjugation.affine_correction_unique": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryConjugation.affine_cycle_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryConjugation.affine_cycle_transport": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryConjugation.affine_iff_correction": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryConjugation.correction_conjugate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryConjugation.correction_eq_iff_conjugate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryConjugation.correction_valuation_invariant": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryConjugation.sectorSign_conjugate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryConjugation.sectorSign_sq": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryConjugation.signed_eq_sectorSign": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "FamilyCoefficientRigidity",
+      "source": "Collatz Research v2.5/FamilyCoefficientRigidity.lean",
+      "source_sha256": "6f9b38302874af386ce45fccbb80376adf1b006cecad4e7858013f6deff4ccf4",
+      "compiled_sha256": "3fece0846156f3aeba82dadf5ef83a57240837241e6ddcdd29cc8d74e9caf20a",
+      "declarations": {
+        "CollatzRunyan.FamilyCoefficientRigidity.correction_antitone": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoefficientRigidity.distinct_family_product": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoefficientRigidity.eligible_odd_visit": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoefficientRigidity.finite_weight_ge_one": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoefficientRigidity.orbit_agreement": [],
+        "CollatzRunyan.FamilyCoefficientRigidity.orbit_product_identity": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoefficientRigidity.prefix_as_product": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoefficientRigidity.prefix_coefficient_growth": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoefficientRigidity.record_twenty_ninth_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoefficientRigidity.representative_spec": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoefficientRigidity.representative_visit_injective": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoefficientRigidity.representative_weight": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.FamilyCoefficientRigidity.shortcut_product_identity": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "TwoAdicSectorDecomposition",
+      "source": "Collatz Research v2.6/TwoAdicSectorDecomposition.lean",
+      "source_sha256": "67776e5c88206e67b0972b14111308c31177d7a28efc53812ad4343664ba0012",
+      "compiled_sha256": "10ec5c5f408ba2dc8638f1a1a3efe0ffe34973965bbe2f634fe8dc1457da307b",
+      "declarations": {
+        "CollatzRunyan.TwoAdicSectorDecomposition.canonical_sector": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.TwoAdicSectorDecomposition.canonical_sector_exclusive": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.TwoAdicSectorDecomposition.exactValuation_factor": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.TwoAdicSectorDecomposition.exactValuation_unique_factor": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.TwoAdicSectorDecomposition.factor_unique": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.TwoAdicSectorDecomposition.oddUnit_neg": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.TwoAdicSectorDecomposition.oddUnit_residues": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.TwoAdicSectorDecomposition.power_ne_zero": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.TwoAdicSectorDecomposition.reflected_factor": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.TwoAdicSectorDecomposition.unitSector_neg": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "AsymptoticCoefficientRigidity",
+      "source": "Collatz Research v2.5/AsymptoticCoefficientRigidity.lean",
+      "source_sha256": "1e7bf7b224aaadfcdb62674bb0082dd4b2bd29b41eebf10b5d7ef668f0a26142",
+      "compiled_sha256": "c8c2a1f3367ca5dbac434b28534f40ed83867a83e76d46bfca795821851b6a56",
+      "declarations": {
+        "CollatzRunyan.AsymptoticCoefficientRigidity.correction_product_ge_one": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.AsymptoticCoefficientRigidity.correction_product_succ": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.AsymptoticCoefficientRigidity.eventual_exponential_envelope": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.AsymptoticCoefficientRigidity.eventual_no_exponential_contraction": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.AsymptoticCoefficientRigidity.eventual_parity_power_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.AsymptoticCoefficientRigidity.eventual_product_envelope": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.AsymptoticCoefficientRigidity.eventual_scaled_coefficient_growth": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.AsymptoticCoefficientRigidity.eventually_correction_le": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.AsymptoticCoefficientRigidity.injective_escape": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.AsymptoticCoefficientRigidity.tail_product_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.AsymptoticCoefficientRigidity.visit_correction_ge_one": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.AsymptoticCoefficientRigidity.visit_correction_le_rate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "BinarySpectralIteration",
+      "source": "Collatz Research v2.6/BinarySpectralIteration.lean",
+      "source_sha256": "21b28e41eee5b3aa5932832430d081e6f5c1c8fbe720a91aea1187092e31325e",
+      "compiled_sha256": "cf3680c69a967e6713f7c5a5bd61dda0afa25024fda83f5c212142ab9cf52ab2",
+      "declarations": {
+        "CollatzRunyan.BinarySpectralIteration.evolve_conjugate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinarySpectralIteration.evolve_spectral": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinarySpectralIteration.half_difference": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinarySpectralIteration.half_iteration": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinarySpectralIteration.half_power_reciprocal": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinarySpectralIteration.half_sum_preserved": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "ConjugateCycleRigidity",
+      "source": "Collatz Research v2.6/ConjugateCycleRigidity.lean",
+      "source_sha256": "6cefdc8dc2064d4e18b5729b578ae9b05a4bccd0c1848b0e4bacfddbecff65f9",
+      "compiled_sha256": "d2181cb337cf8033de1b55967be83a3294dbbe7becf8af48270cf1d25a5915d0",
+      "declarations": {
+        "CollatzRunyan.BinaryConjugation.actualCycle_candidate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryConjugation.actualCycle_conjugate_candidate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryConjugation.actualCycle_signed_unique": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryConjugation.cycleCandidate_exists_iff": [
+          "propext"
+        ],
+        "CollatzRunyan.BinaryConjugation.cycleCandidate_neg_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryConjugation.cycleCandidate_unique": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryConjugation.cycleDivisibility_conjugate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryConjugation.cycleObstruction_ne_zero": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryConjugation.exactCycle_conjugate_with_candidate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "BinaryAdelicDuality",
+      "source": "Collatz Research v2.6/BinaryAdelicDuality.lean",
+      "source_sha256": "63d8a057280f525305b025e2f4b6d06a377123c5d3d88076a5bc0c707d441fd1",
+      "compiled_sha256": "aa60045054a0dbb7aa684744a7dbabb3b66a8d157307b20f24b7330822860dcb",
+      "declarations": {
+        "CollatzRunyan.BinaryAdelicDuality.difference_abs": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryAdelicDuality.difference_duality": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryAdelicDuality.difference_padic": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryAdelicDuality.half_norm": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryAdelicDuality.half_power_abs": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryAdelicDuality.half_power_duality": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryAdelicDuality.half_power_norm": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.BinaryAdelicDuality.two_norm": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "ParityDriftConflict",
+      "source": "Collatz Research v2.5/ParityDriftConflict.lean",
+      "source_sha256": "c660876b2dd7d3d945438b995a0f37a637cfdf6c21c28ebb2a065f93cd788189",
+      "compiled_sha256": "58a1e9c0942f7e9b8f2967821bc362ca6f51d17c67b3f25adf7524810f880534",
+      "declarations": {
+        "CollatzRunyan.ParityDriftConflict.all_odd_run_formula": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ParityDriftConflict.arbitrarily_large_all_odd": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ParityDriftConflict.certified_deficit_forces_repeat": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ParityDriftConflict.eventual_above_certified_frequency": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ParityDriftConflict.eventual_above_five_eighths": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.ParityDriftConflict.no_uniform_block_contraction": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "CollatzAdelicCompatibility",
+      "source": "Collatz Research v2.6/CollatzAdelicCompatibility.lean",
+      "source_sha256": "7dde622d9fe04fa3890c338448ba440433840cc6dacd88c9de1a96fe03b9d5b0",
+      "compiled_sha256": "285776bf7ae925f5f2c5a09a0aa40f35688df289b42d3732f3d61e2d7549d90b",
+      "declarations": {
+        "CollatzRunyan.CollatzAdelicCompatibility.collatz_abs": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzAdelicCompatibility.collatz_factor_height": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzAdelicCompatibility.collatz_height": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzAdelicCompatibility.collatz_padic": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzAdelicCompatibility.height_binary": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzAdelicCompatibility.height_mul": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzAdelicCompatibility.height_normalize": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzAdelicCompatibility.normalized_of_factor": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "CollatzAdelicDrift",
+      "source": "Collatz Research v2.6/CollatzAdelicDrift.lean",
+      "source_sha256": "932272a8ebc4a6ca78fcf095d152d0a041cea92cdd2a2b2a9d2e19897d25afbf",
+      "compiled_sha256": "a1497d67849ce2e7d978c8754225b2d00efe353e448db02dec49fb3d7edd64c0",
+      "declarations": {
+        "CollatzRunyan.CollatzAdelicDrift.descent_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzAdelicDrift.orbit_balance": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzAdelicDrift.step_balance": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "CollatzCorrectionBounds",
+      "source": "Collatz Research v2.6/CollatzCorrectionBounds.lean",
+      "source_sha256": "f618de24093a35d41b431cfc680d3c40249fdcb730a512719870fba678d69c70",
+      "compiled_sha256": "7c271ce530575dbc5e7ba2bde475420b0831106ac8cf14642f598a9c4fc5bf1c",
+      "declarations": {
+        "CollatzRunyan.CollatzCorrectionBounds.corrected_growth_upper": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCorrectionBounds.correction_lower": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCorrectionBounds.correction_strict": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCorrectionBounds.correction_upper": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCorrectionBounds.nondescending_budget": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCorrectionBounds.sufficient_descent": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "CollatzIterationBridge",
+      "source": "Collatz Research v2.6/CollatzIterationBridge.lean",
+      "source_sha256": "a54c3f0d95ca5a119d16a582da8f93a8c77401b723258de23471ba27ae35192b",
+      "compiled_sha256": "16ddd14dd70dcef8b29868a82e08fbf5b06cea29fe44a997d5f428ba9902da0a",
+      "declarations": {
+        "CollatzRunyan.CollatzIterationBridge.coefficient_agreement": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzIterationBridge.even_block": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzIterationBridge.eventual_budget_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzIterationBridge.normalized_agreement": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzIterationBridge.oddCount_add_bridge": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzIterationBridge.odd_block": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzIterationBridge.orbit_add_bridge": [
+          "propext"
+        ],
+        "CollatzRunyan.CollatzIterationBridge.orbit_agreement": [
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "IntegratedNonDescentRigidity",
+      "source": "Collatz Research v2.6/IntegratedNonDescentRigidity.lean",
+      "source_sha256": "19e1380762a38ba004c815d9f79fb43b6520a715f529b52c98995f6cfe12ab42",
+      "compiled_sha256": "7968a29bbc775c692fba158e814c0da4f6c4f8a4a523756419d94725759cecec",
+      "declarations": {
+        "CollatzRunyan.IntegratedNonDescentRigidity.integrated_bounds": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.IntegratedNonDescentRigidity.prefix_budget_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.IntegratedNonDescentRigidity.recurring_budget_forces_repeat": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "CollatzCycleBudget",
+      "source": "Collatz Research v2.6/CollatzCycleBudget.lean",
+      "source_sha256": "555e07de9d79afd76c4290854378e1ce8b0ed19c2f2beb74f3869c7ca05542e1",
+      "compiled_sha256": "84df5dff043bdecd536db0cea0405b54d2bbf435035d3376126a83a4419f828a",
+      "declarations": {
+        "CollatzRunyan.CollatzCycleBudget.closed_balance": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCycleBudget.closed_budget_strict": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCycleBudget.closed_budget_window": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "CollatzCycleExclusionCertificate",
+      "source": "Collatz Research v2.6/CollatzCycleExclusionCertificate.lean",
+      "source_sha256": "50439e4fc6449a29765b28625107b372f9216cda6223a9dfe9217a66a75f26ff",
+      "compiled_sha256": "7c3138a4035cfba74a6b4082f3af6af565948ad99b7dd3337253ffec9dc2926d",
+      "declarations": {
+        "CollatzRunyan.CollatzCycleExclusionCertificate.exclude_budget": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCycleExclusionCertificate.integer_budget_window": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "CollatzCycleMinimumRigidity",
+      "source": "Collatz Research v2.6/CollatzCycleMinimumRigidity.lean",
+      "source_sha256": "931862c3d4a35c14aeb0d5d6637c20d4e1d77b8b174aaf0ec943e1db6318f77b",
+      "compiled_sha256": "21ea147a595bbab5a6d1ba07c0ac18a3ec41084ca4391789e39c40ba419eb763",
+      "declarations": {
+        "CollatzRunyan.CollatzCycleMinimumRigidity.closed_minimum_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCycleMinimumRigidity.correction_relative_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCycleMinimumRigidity.exclude_minimum": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "CollatzCycleAffineRigidity",
+      "source": "Collatz Research v2.6/CollatzCycleAffineRigidity.lean",
+      "source_sha256": "ef5a8d1f23375f87b983f8d1e9442cc081f0c18d592aaea5994faeb43e5018b4",
+      "compiled_sha256": "e13cab38d47ab10c44c4083b3fd8378e17dc241dbd492bf57a58baf9d954e1bb",
+      "declarations": {
+        "CollatzRunyan.CollatzCycleAffineRigidity.affine_balance": [
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCycleAffineRigidity.affine_numerator_pos": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCycleAffineRigidity.closed_affine": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCycleAffineRigidity.closed_affine_discrepancy_pos": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCycleAffineRigidity.closed_affine_dvd": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCycleAffineRigidity.exclude_affine": [
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "CollatzCycleAdmissibility",
+      "source": "Collatz Research v2.6/CollatzCycleAdmissibility.lean",
+      "source_sha256": "2b49e91f1f4e270989055c2be0ff26358c28ab98bdc426137a98e0fbc9e772de",
+      "compiled_sha256": "50bf529cd08d3fd6b1fac807f45b8c6e3e391941e9fd7def8f3d97b8529bb3c4",
+      "declarations": {
+        "CollatzRunyan.CollatzCycleAdmissibility.binary_residue_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCycleAdmissibility.exclude_prefix_residue": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCycleAdmissibility.prefix_binary_dvd": [
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCycleAdmissibility.prefix_exact_residue_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCycleAdmissibility.step_exact_residue_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "module": "CollatzCyclicRotationRigidity",
+      "source": "Collatz Research v2.6/CollatzCyclicRotationRigidity.lean",
+      "source_sha256": "1c44468c4b3f1b6b492b33a1c327dabd4bbfa41d3caab4236a861222381d5648",
+      "compiled_sha256": "d50ffdf7eb679d7338bcbb9f68dd88413beb59d549ae0cfaa0f8e6c9988c32c7",
+      "declarations": {
+        "CollatzRunyan.CollatzCyclicRotationRigidity.affine_head": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCyclicRotationRigidity.budget_head": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCyclicRotationRigidity.discrepancy_odd": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCyclicRotationRigidity.odd_dvd_two_power_mul": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCyclicRotationRigidity.rotation_budget": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCyclicRotationRigidity.rotation_discrepancy": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCyclicRotationRigidity.rotation_identity": [
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCyclicRotationRigidity.rotation_step": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCyclicRotationRigidity.three_power_odd": [
+          "propext"
+        ],
+        "CollatzRunyan.CollatzCyclicRotationRigidity.two_power_even": [
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    }
+  ]
+}
