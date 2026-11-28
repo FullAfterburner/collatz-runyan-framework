@@ -1,16 +1,16 @@
 cff-version: 1.2.0
-message: "If you use this software or its formal proofs, please cite the archived version 2.6."
+message: "If you use this software or its formal proofs, please cite the archived version 2.7."
 type: software
-title: "The Collatz–Runyan Arithmetic Framework"
+title: "Collatz-Runyan Framework v2.7: Unified Formal Verification and Research Consolidation"
 authors:
   - family-names: "Runyan"
     given-names: "Jake Thomas"
-version: "2.6"
-date-released: "2026-11-26"
+version: "2.7"
+date-released: "2026-11-28"
 repository-code: "https://github.com/FullAfterburner/Collatz-Runyan-Framework"
-doi: "10.5281/zenodo.24573216"
-url: "https://doi.org/10.5281/zenodo.24573216"
-abstract: "The v2.6 arithmetic supplement adds 19 Lean modules and 142 inventoried theorem and lemma declarations. Successful automated verification reproduces the v2.5 baseline (43 modules, 418 declarations) and verifies 26 combined v2.5/v2.6 modules and 255 declarations, yielding 62 distinct modules and 560 inventoried declarations. The audit checks exact source identities and individual axiom dependencies; no sorryAx dependencies were reported. Results include binary conjugation, spectral symmetry, adelic arithmetic, conditional iteration correspondence, non-descent restrictions, and cycle admissibility. The Collatz conjecture remains unresolved; automated verification is not independent peer review."
+doi: "10.5281/zenodo.24633224"
+url: "https://doi.org/10.5281/zenodo.24633224"
+abstract: "Version 2.7 consolidates 1,056 distinct audited theorem names across 64 proof-bearing Lean modules. The unified kernel audit reports zero unexpected axioms. Research includes arithmetic dynamics, parity rigidity, coefficient growth, cycle constraints, Geometric Spectral Stages 1-6, and Lepton Modular Stages 1-9. The release includes a 59-page master research paper with 23 figures, reproducibility materials, declaration inventories, and SHA-256 integrity manifests. The Collatz conjecture and Riemann hypothesis remain unresolved. Formal verification is not a substitute for independent peer review."
 keywords:
   - Collatz conjecture
   - number theory
@@ -18,8 +18,10 @@ keywords:
   - Mathlib
   - formal verification
   - arithmetic dynamics
+  - spectral analysis
+  - modular geometry
   - Diophantine approximation
   - 2-adic analysis
-  - adelic duality
   - cycle rigidity
   - binary conjugation
+  - reproducible research

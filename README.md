@@ -3,7 +3,9 @@
 **A formally verified research program in arithmetic dynamics,
 number theory, modular geometry and spectral analysis.**
 
-## v2.7 consolidation
+## v2.7 published release
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24633224.svg)](https://doi.org/10.5281/zenodo.24633224)
 
 ![Lean](https://img.shields.io/badge/Lean-4.19.0-blue)
 ![Mathlib](https://img.shields.io/badge/Mathlib-v4.19.0-blue)
@@ -24,8 +26,8 @@ On November 28, 2026, all 64 proof-bearing modules were compiled
 and imported into one Lean environment. The unified kernel axiom
 audit passed for 1,056 distinct theorem names.
 
-The local audit is complete. Automated reproduction of the
-reorganized release remains pending.
+The local audit is complete. Automated reproduction results
+are available through GitHub Actions.
 
 ## Start here
 
@@ -134,10 +136,16 @@ Kernel verification is not a substitute for external peer review.
 
 ## Citation
 
-The latest archived release cited during consolidation is v2.6:
+The latest published release is v2.7:
+
+https://doi.org/10.5281/zenodo.24633224
+
+Runyan, J. T. (2026). Collatz-Runyan Framework v2.7:
+Unified Formal Verification and Research Consolidation.
+Zenodo. https://doi.org/10.5281/zenodo.24633224
+
+The previous v2.6 archival DOI remains:
 
 https://doi.org/10.5281/zenodo.24573216
-
-The v2.7 citation and DOI will be assigned following publication.
 
 See [CITATION.cff](CITATION.cff) and [LICENSE](LICENSE).
